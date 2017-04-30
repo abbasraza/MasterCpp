@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9CC53BB381DBB449D8530FC721FBD02CA5FF9D0B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9CC53BB381DBB449D8530FC721FBD02CA5FF9D0B" : 0,
+    "B1701BBFE647204FE934645349D97976637164DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "121A3C95-511F-44F1-93A9-5A73DA64A03F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9CC53BB381DBB449D8530FC721FBD02CA5FF9D0B" : "MasterCpp\/",
+    "B1701BBFE647204FE934645349D97976637164DD" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MasterC++",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MasterC++.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.com:abbasraza\/MasterCpp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CC53BB381DBB449D8530FC721FBD02CA5FF9D0B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Qata\/CTObject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1701BBFE647204FE934645349D97976637164DD"
+    }
+  ]
+}

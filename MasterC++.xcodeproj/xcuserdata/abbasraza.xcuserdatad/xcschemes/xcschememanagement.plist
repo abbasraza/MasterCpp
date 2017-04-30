@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HorseRace.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Linked List.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MasterC++.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>NickGenerator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>PersonSort.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>PointerToPointer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EFE2D37C1EB515EB00407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFE2D38A1EB5166E00407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFE2D3951EB5E6BC00407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFE2D3A01EB60AF900407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFE2D3AB1EB6291C00407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFE2D3B61EB634CA00407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -108,7 +108,7 @@ int main(int argc, const char * argv[]) {
 	
 	struct node * head = NULL;
 	struct node * curr = NULL;
-	cout << "Enter arithmetic expression to solve(! to end i.e 2*3!) : ";
+	cout << "Enter arithmetic expression to solve(! to end i.e 2*3!)\n : ";
 	
 	while(1)
 	{

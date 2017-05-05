@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Stack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>EFA486DB1EBC464900D744B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFA486E61EBC9B8000D744B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

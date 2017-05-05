@@ -70,7 +70,6 @@ void resolve_op_recursively(Stack& e_stack, char in)
 	if (e_stack.get_top() == 0) //stack has only 1 operand
 	{
 		e_stack.push(in);
-		return;
 	}
 	else
 	{

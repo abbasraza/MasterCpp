@@ -63,36 +63,39 @@ void express::parse()
 	for(int j=0; j<len; j++)
 	{
 		ch = pStr[j];
-		if(ch>='0' && ch<='9')
-			s.push(ch - '0');
-		else if(ch == '+' || ch == '-' || ch == '*' || ch == '/')
+		if (ch != ' ')
 		{
-			if(s.gettop()==1)
-				s.push(ch);
-			else {
-				lastval = s.pop();
-				lastop = s.pop();
-				//if this is * or / AND last operator was + or -
-				if( (ch=='*' || ch=='/') && (lastop=='+' || lastop=='-') )
-				{
-					s.push(lastop);
-					s.push(lastval);
-				}
+			if(ch>='0' && ch<='9')
+				s.push(ch - '0');
+			else if(ch == '+' || ch == '-' || ch == '*' || ch == '/')
+			{
+				if(s.gettop()==1)
+					s.push(ch);
 				else {
-					switch(lastop)
+					lastval = s.pop();
+					lastop = s.pop();
+					//if this is * or / AND last operator was + or -
+					if( (ch=='*' || ch=='/') && (lastop=='+' || lastop=='-') )
 					{
-						default:  cout << "\nUnknown oper"; exit(1);
-						case '+': s.push(s.pop() + lastval); break;
-						case '-': s.push(s.pop() - lastval); break;
-						case '*': s.push(s.pop() * lastval); break;
-						case '/': s.push(s.pop() / lastval); break;
-					}  //end switch
-				}  //end else, in all other cases
-				s.push(ch);              //put current op on stack
-			}  //end else, not first operator
-		}  //end else if, it’s an operator
-		else                           //not a known character
-		{ cout << "\nUnknown input character"; exit(1); }
+						s.push(lastop);
+						s.push(lastval);
+					}
+					else {
+						switch(lastop)
+						{
+							default:  cout << "\nUnknown oper"; exit(1);
+							case '+': s.push(s.pop() + lastval); break;
+							case '-': s.push(s.pop() - lastval); break;
+							case '*': s.push(s.pop() * lastval); break;
+							case '/': s.push(s.pop() / lastval); break;
+						}  //end switch
+					}  //end else, in all other cases
+					s.push(ch);              //put current op on stack
+				}  //end else, not first operator
+			}  //end else if, it’s an operator
+			else                           //not a known character
+			{ cout << "\nUnknown input character"; exit(1); }
+		}
 	}  //end for
 }  //end parse()
 

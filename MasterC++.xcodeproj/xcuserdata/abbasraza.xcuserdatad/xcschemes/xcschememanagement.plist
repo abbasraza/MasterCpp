@@ -24,10 +24,20 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>Parser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>ParserMix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>ParserStack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>PersonSort.xcscheme</key>
 		<dict>
@@ -43,6 +53,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>EFA4869C1EB7572B00D744B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFA486A71EB775FE00D744B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFA486DB1EBC464900D744B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

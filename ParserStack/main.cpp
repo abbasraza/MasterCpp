@@ -106,7 +106,7 @@ void resolve_op_recursively(Stack& e_stack, char in)
 	}
 }
 
-void parse_expression_using_stack(Stack& e_stack, const char * input)
+void solve_expression_using_stack(Stack& e_stack, const char * input)
 {
 	while (*input)
 	{
@@ -128,10 +128,7 @@ void parse_expression_using_stack(Stack& e_stack, const char * input)
 		}
 		input++;
 	}
-}
 
-void solve_expression_using_stack(Stack& e_stack)
-{
 	while(e_stack.get_top())
 	{
 		char second_operand = e_stack.pop();
@@ -164,8 +161,7 @@ void solve_expression_and_match_result(const char * input, char expected_result)
 
 	cout << "Expression: " << input;
 
-	parse_expression_using_stack(e_stack, input);
-	solve_expression_using_stack(e_stack);
+	solve_expression_using_stack(e_stack, input);
 	
 	result = e_stack.pop();
 	cout << " Got solution: " << static_cast<int>(result) << " Expected Solution: " <<  static_cast<int>(expected_result) << " Test: ";
@@ -184,20 +180,20 @@ int main(int argc, const char * argv[])
 {
 	const char * expressions[20] =
 							{
-								static_cast<const char *>("5 / 5 + 3 - 6 * 2"), // why static_cast here? what is const_cast
-								static_cast<const char *>("3 * 7 - 1 + 5 / 3"),
-								static_cast<const char *>("3 * 5 - 4"),
-								static_cast<const char *>("3 + 5 - 4"),
-								static_cast<const char *>("2 / 6 * 3 / 2"),
-								static_cast<const char *>("3 + 6 * 9 / 3 - 7"),
-								static_cast<const char *>("9 - 5 / 5 * 2 + 6"),
-								static_cast<const char *>("7 + 3 * 4 / 2 - 5 * 6"),
-								static_cast<const char *>("4 * 5 + 3 - 4 / 2"),
-								static_cast<const char *>("4 / 2 * 5 + 3 - 4"),
-								static_cast<const char *>("5 + 3 * 4 / 2 - 3"),
-								static_cast<const char *>("5 - 3 + 4 / 2"),
-								static_cast<const char *>("5 * 3 / 2 - 2"),
-								static_cast<const char *>("5 * 2 / 4 + 9 - 2")
+								"5 / 5 + 3 - 6 * 2",
+								"3 * 7 - 1 + 5 / 3",
+								"3 * 5 - 4",
+								"3 + 5 - 4",
+								"2 / 6 * 3 / 2",
+								"3 + 6 * 9 / 3 - 7",
+								"9 - 5 / 5 * 2 + 6",
+								"7 + 3 * 4 / 2 - 5 * 6",
+								"4 * 5 + 3 - 4 / 2",
+								"4 / 2 * 5 + 3 - 4",
+								"5 + 3 * 4 / 2 - 3",
+								"5 - 3 + 4 / 2",
+								"5 * 3 / 2 - 2",
+								"5 * 2 / 4 + 9 - 2"
 							};
 
 	char solutions[20] =

@@ -9,13 +9,13 @@
 #include <iostream>
 using namespace std;
 
-const char SIZE = 40;
+const unsigned char SIZE = 40;
 
 class Stack
 {
 private:
 	char array[SIZE];
-	char top;
+	signed char top;
 public:
 	Stack():top(-1)
 	{
@@ -26,6 +26,10 @@ public:
 		{
 			array[++top] = v;
 		}
+		else
+		{
+			//FIXME
+		}
 	}
 	char pop()
 	{
@@ -33,7 +37,7 @@ public:
 		{
 			return array[top--];
 		}
-		throw "Stack is empty. Pop failed";
+		throw "Stack is empty. Pop failed"; // FIXME:
 	}
 	bool is_full()
 	{

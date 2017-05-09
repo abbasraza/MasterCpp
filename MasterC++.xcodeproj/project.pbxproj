@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4643F21EC1B68800A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643F11EC1B68800A492C0 /* main.cpp */; };
 		EFA486A01EB7572B00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA4869F1EB7572B00D744B3 /* main.cpp */; };
 		EFA486AB1EB775FE00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA486AA1EB775FE00D744B3 /* main.cpp */; };
 		EFA486DF1EBC464A00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA486DE1EBC464A00D744B3 /* main.cpp */; };
@@ -19,6 +20,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EF4643ED1EC1B68800A492C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFA4869B1EB7572B00D744B3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +113,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF4643EF1EC1B68800A492C0 /* SignedUnsigned */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SignedUnsigned; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4643F11EC1B68800A492C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFA4869D1EB7572B00D744B3 /* ParserMix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParserMix; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA4869F1EB7572B00D744B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFA486A81EB775FE00D744B3 /* Parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Parser; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +136,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF4643EC1EC1B68800A492C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFA4869A1EB7572B00D744B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +209,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF4643F01EC1B68800A492C0 /* SignedUnsigned */ = {
+			isa = PBXGroup;
+			children = (
+				EF4643F11EC1B68800A492C0 /* main.cpp */,
+			);
+			path = SignedUnsigned;
+			sourceTree = "<group>";
+		};
 		EFA4869E1EB7572B00D744B3 /* ParserMix */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +261,7 @@
 				EFA486A91EB775FE00D744B3 /* Parser */,
 				EFA486DD1EBC464A00D744B3 /* ParserStack */,
 				EFA486E81EBC9B8000D744B3 /* Stack */,
+				EF4643F01EC1B68800A492C0 /* SignedUnsigned */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -250,6 +278,7 @@
 				EFA486A81EB775FE00D744B3 /* Parser */,
 				EFA486DC1EBC464900D744B3 /* ParserStack */,
 				EFA486E71EBC9B8000D744B3 /* Stack */,
+				EF4643EF1EC1B68800A492C0 /* SignedUnsigned */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,6 +326,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF4643EE1EC1B68800A492C0 /* SignedUnsigned */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4643F31EC1B68800A492C0 /* Build configuration list for PBXNativeTarget "SignedUnsigned" */;
+			buildPhases = (
+				EF4643EB1EC1B68800A492C0 /* Sources */,
+				EF4643EC1EC1B68800A492C0 /* Frameworks */,
+				EF4643ED1EC1B68800A492C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignedUnsigned;
+			productName = SignedUnsigned;
+			productReference = EF4643EF1EC1B68800A492C0 /* SignedUnsigned */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFA4869C1EB7572B00D744B3 /* ParserMix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFA486A31EB7572B00D744B3 /* Build configuration list for PBXNativeTarget "ParserMix" */;
@@ -459,6 +505,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Self;
 				TargetAttributes = {
+					EF4643EE1EC1B68800A492C0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					EFA4869C1EB7572B00D744B3 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -509,11 +558,20 @@
 				EFA486A71EB775FE00D744B3 /* Parser */,
 				EFA486DB1EBC464900D744B3 /* ParserStack */,
 				EFA486E61EBC9B8000D744B3 /* Stack */,
+				EF4643EE1EC1B68800A492C0 /* SignedUnsigned */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF4643EB1EC1B68800A492C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4643F21EC1B68800A492C0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFA486991EB7572B00D744B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,6 +647,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EF4643F41EC1B68800A492C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4643F51EC1B68800A492C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFA486A11EB7572B00D744B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -686,6 +758,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				"WARNING_CFLAGS[arch=*]" = "-Wchar-subscripts";
 			};
 			name = Debug;
 		};
@@ -799,6 +872,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF4643F31EC1B68800A492C0 /* Build configuration list for PBXNativeTarget "SignedUnsigned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4643F41EC1B68800A492C0 /* Debug */,
+				EF4643F51EC1B68800A492C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EFA486A31EB7572B00D744B3 /* Build configuration list for PBXNativeTarget "ParserMix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -806,6 +887,7 @@
 				EFA486A21EB7572B00D744B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA486AC1EB775FE00D744B3 /* Build configuration list for PBXNativeTarget "Parser" */ = {
 			isa = XCConfigurationList;
@@ -814,6 +896,7 @@
 				EFA486AE1EB775FE00D744B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA486E01EBC464A00D744B3 /* Build configuration list for PBXNativeTarget "ParserStack" */ = {
 			isa = XCConfigurationList;
@@ -822,6 +905,7 @@
 				EFA486E21EBC464A00D744B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA486EB1EBC9B8000D744B3 /* Build configuration list for PBXNativeTarget "Stack" */ = {
 			isa = XCConfigurationList;
@@ -830,6 +914,7 @@
 				EFA486ED1EBC9B8000D744B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE2D3781EB515EB00407470 /* Build configuration list for PBXProject "MasterC++" */ = {
 			isa = XCConfigurationList;

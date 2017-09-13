@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF4643F21EC1B68800A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643F11EC1B68800A492C0 /* main.cpp */; };
+		EF4643FD1F4D43E900A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643FC1F4D43E900A492C0 /* main.cpp */; };
 		EFA486A01EB7572B00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA4869F1EB7572B00D744B3 /* main.cpp */; };
 		EFA486AB1EB775FE00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA486AA1EB775FE00D744B3 /* main.cpp */; };
 		EFA486DF1EBC464A00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA486DE1EBC464A00D744B3 /* main.cpp */; };
@@ -21,6 +22,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF4643ED1EC1B68800A492C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF4643F81F4D43E900A492C0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -115,6 +125,8 @@
 /* Begin PBXFileReference section */
 		EF4643EF1EC1B68800A492C0 /* SignedUnsigned */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SignedUnsigned; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4643F11EC1B68800A492C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF4643FA1F4D43E900A492C0 /* StaticCast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticCast; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4643FC1F4D43E900A492C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFA4869D1EB7572B00D744B3 /* ParserMix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParserMix; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA4869F1EB7572B00D744B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFA486A81EB775FE00D744B3 /* Parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Parser; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +149,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF4643EC1EC1B68800A492C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4643F71F4D43E900A492C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +236,14 @@
 			path = SignedUnsigned;
 			sourceTree = "<group>";
 		};
+		EF4643FB1F4D43E900A492C0 /* StaticCast */ = {
+			isa = PBXGroup;
+			children = (
+				EF4643FC1F4D43E900A492C0 /* main.cpp */,
+			);
+			path = StaticCast;
+			sourceTree = "<group>";
+		};
 		EFA4869E1EB7572B00D744B3 /* ParserMix */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +289,7 @@
 				EFA486DD1EBC464A00D744B3 /* ParserStack */,
 				EFA486E81EBC9B8000D744B3 /* Stack */,
 				EF4643F01EC1B68800A492C0 /* SignedUnsigned */,
+				EF4643FB1F4D43E900A492C0 /* StaticCast */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -279,6 +307,7 @@
 				EFA486DC1EBC464900D744B3 /* ParserStack */,
 				EFA486E71EBC9B8000D744B3 /* Stack */,
 				EF4643EF1EC1B68800A492C0 /* SignedUnsigned */,
+				EF4643FA1F4D43E900A492C0 /* StaticCast */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,6 +370,23 @@
 			name = SignedUnsigned;
 			productName = SignedUnsigned;
 			productReference = EF4643EF1EC1B68800A492C0 /* SignedUnsigned */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF4643F91F4D43E900A492C0 /* StaticCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4644001F4D43E900A492C0 /* Build configuration list for PBXNativeTarget "StaticCast" */;
+			buildPhases = (
+				EF4643F61F4D43E900A492C0 /* Sources */,
+				EF4643F71F4D43E900A492C0 /* Frameworks */,
+				EF4643F81F4D43E900A492C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticCast;
+			productName = StaticCast;
+			productReference = EF4643FA1F4D43E900A492C0 /* StaticCast */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFA4869C1EB7572B00D744B3 /* ParserMix */ = {
@@ -508,6 +554,9 @@
 					EF4643EE1EC1B68800A492C0 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					EF4643F91F4D43E900A492C0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					EFA4869C1EB7572B00D744B3 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -559,6 +608,7 @@
 				EFA486DB1EBC464900D744B3 /* ParserStack */,
 				EFA486E61EBC9B8000D744B3 /* Stack */,
 				EF4643EE1EC1B68800A492C0 /* SignedUnsigned */,
+				EF4643F91F4D43E900A492C0 /* StaticCast */,
 			);
 		};
 /* End PBXProject section */
@@ -569,6 +619,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4643F21EC1B68800A492C0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4643F61F4D43E900A492C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4643FD1F4D43E900A492C0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +719,20 @@
 			};
 			name = Release;
 		};
+		EF4643FE1F4D43E900A492C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4643FF1F4D43E900A492C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFA486A11EB7572B00D744B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -726,12 +798,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -748,8 +820,12 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_PEDANTIC = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -771,12 +847,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -787,8 +863,12 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_PEDANTIC = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -877,6 +957,15 @@
 			buildConfigurations = (
 				EF4643F41EC1B68800A492C0 /* Debug */,
 				EF4643F51EC1B68800A492C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4644001F4D43E900A492C0 /* Build configuration list for PBXNativeTarget "StaticCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4643FE1F4D43E900A492C0 /* Debug */,
+				EF4643FF1F4D43E900A492C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

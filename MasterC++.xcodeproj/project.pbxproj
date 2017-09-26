@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EF4643F21EC1B68800A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643F11EC1B68800A492C0 /* main.cpp */; };
 		EF4643FD1F4D43E900A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643FC1F4D43E900A492C0 /* main.cpp */; };
+		EF4EB8B01F795B570001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8AF1F795B570001805E /* main.cpp */; };
+		EF4EB8BB1F79FA370001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8BA1F79FA370001805E /* main.cpp */; };
 		EFA486A01EB7572B00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA4869F1EB7572B00D744B3 /* main.cpp */; };
 		EFA486AB1EB775FE00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA486AA1EB775FE00D744B3 /* main.cpp */; };
 		EFA486DF1EBC464A00D744B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA486DE1EBC464A00D744B3 /* main.cpp */; };
@@ -31,6 +33,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF4643F81F4D43E900A492C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF4EB8AB1F795B570001805E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF4EB8B61F79FA370001805E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -127,6 +147,10 @@
 		EF4643F11EC1B68800A492C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF4643FA1F4D43E900A492C0 /* StaticCast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticCast; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4643FC1F4D43E900A492C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF4EB8AD1F795B570001805E /* SimpleClass1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleClass1; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4EB8AF1F795B570001805E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF4EB8B81F79FA370001805E /* Circles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Circles; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4EB8BA1F79FA370001805E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFA4869D1EB7572B00D744B3 /* ParserMix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParserMix; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA4869F1EB7572B00D744B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFA486A81EB775FE00D744B3 /* Parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Parser; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +180,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF4643F71F4D43E900A492C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4EB8AA1F795B570001805E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4EB8B51F79FA370001805E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,6 +282,23 @@
 			path = StaticCast;
 			sourceTree = "<group>";
 		};
+		EF4EB8AE1F795B570001805E /* SimpleClass1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EB8AF1F795B570001805E /* main.cpp */,
+			);
+			path = SimpleClass1;
+			sourceTree = "<group>";
+		};
+		EF4EB8B91F79FA370001805E /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EB8BA1F79FA370001805E /* main.cpp */,
+			);
+			name = Circles;
+			path = circles;
+			sourceTree = "<group>";
+		};
 		EFA4869E1EB7572B00D744B3 /* ParserMix */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +345,8 @@
 				EFA486E81EBC9B8000D744B3 /* Stack */,
 				EF4643F01EC1B68800A492C0 /* SignedUnsigned */,
 				EF4643FB1F4D43E900A492C0 /* StaticCast */,
+				EF4EB8AE1F795B570001805E /* SimpleClass1 */,
+				EF4EB8B91F79FA370001805E /* Circles */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -308,6 +365,8 @@
 				EFA486E71EBC9B8000D744B3 /* Stack */,
 				EF4643EF1EC1B68800A492C0 /* SignedUnsigned */,
 				EF4643FA1F4D43E900A492C0 /* StaticCast */,
+				EF4EB8AD1F795B570001805E /* SimpleClass1 */,
+				EF4EB8B81F79FA370001805E /* Circles */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -387,6 +446,40 @@
 			name = StaticCast;
 			productName = StaticCast;
 			productReference = EF4643FA1F4D43E900A492C0 /* StaticCast */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF4EB8AC1F795B570001805E /* SimpleClass1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4EB8B11F795B570001805E /* Build configuration list for PBXNativeTarget "SimpleClass1" */;
+			buildPhases = (
+				EF4EB8A91F795B570001805E /* Sources */,
+				EF4EB8AA1F795B570001805E /* Frameworks */,
+				EF4EB8AB1F795B570001805E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleClass1;
+			productName = SimpleClass1;
+			productReference = EF4EB8AD1F795B570001805E /* SimpleClass1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF4EB8B71F79FA370001805E /* Circles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4EB8BC1F79FA370001805E /* Build configuration list for PBXNativeTarget "Circles" */;
+			buildPhases = (
+				EF4EB8B41F79FA370001805E /* Sources */,
+				EF4EB8B51F79FA370001805E /* Frameworks */,
+				EF4EB8B61F79FA370001805E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circles;
+			productName = circles;
+			productReference = EF4EB8B81F79FA370001805E /* Circles */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFA4869C1EB7572B00D744B3 /* ParserMix */ = {
@@ -557,6 +650,12 @@
 					EF4643F91F4D43E900A492C0 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					EF4EB8AC1F795B570001805E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF4EB8B71F79FA370001805E = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					EFA4869C1EB7572B00D744B3 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -609,6 +708,8 @@
 				EFA486E61EBC9B8000D744B3 /* Stack */,
 				EF4643EE1EC1B68800A492C0 /* SignedUnsigned */,
 				EF4643F91F4D43E900A492C0 /* StaticCast */,
+				EF4EB8AC1F795B570001805E /* SimpleClass1 */,
+				EF4EB8B71F79FA370001805E /* Circles */,
 			);
 		};
 /* End PBXProject section */
@@ -627,6 +728,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4643FD1F4D43E900A492C0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4EB8A91F795B570001805E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4EB8B01F795B570001805E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4EB8B41F79FA370001805E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4EB8BB1F79FA370001805E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +846,54 @@
 		EF4643FF1F4D43E900A492C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4EB8B21F795B570001805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4EB8B31F795B570001805E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4EB8BD1F79FA370001805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4EB8BE1F79FA370001805E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -968,6 +1133,25 @@
 				EF4643FF1F4D43E900A492C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4EB8B11F795B570001805E /* Build configuration list for PBXNativeTarget "SimpleClass1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4EB8B21F795B570001805E /* Debug */,
+				EF4EB8B31F795B570001805E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4EB8BC1F79FA370001805E /* Build configuration list for PBXNativeTarget "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4EB8BD1F79FA370001805E /* Debug */,
+				EF4EB8BE1F79FA370001805E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA486A31EB7572B00D744B3 /* Build configuration list for PBXNativeTarget "ParserMix" */ = {
 			isa = XCConfigurationList;

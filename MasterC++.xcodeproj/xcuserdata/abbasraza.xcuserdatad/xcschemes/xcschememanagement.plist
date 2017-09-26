@@ -9,6 +9,31 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>Ctor1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>Ctor2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>Distance1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Distance2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>Distance3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>HorseRace.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -72,6 +97,31 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>EF08C3991F79FF6F002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3A41F7A0892002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3AF1F7A1E97002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3BA1F7A2A44002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3C51F7A2E1A002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EF4643EE1EC1B68800A492C0</key>
 		<dict>
 			<key>primary</key>

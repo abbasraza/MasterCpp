@@ -8,6 +8,10 @@
 
 #include <iostream>
 
+/* Purpose of this program:
+ - Just to show a basic class, data and member functions.
+*/
+
 class smallobj
 {
 private:

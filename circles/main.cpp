@@ -12,6 +12,10 @@
 //#include "msoftcon.h"         // for graphics functions
 ////////////////////////////////////////////////////////////////
 
+/* Purpose of this program:
+ - To show that how physical objects like circle can be implemented in c++.
+*/
+
 class circle
 {
 private:
@@ -51,8 +55,8 @@ int main()
 	c1.set(15, 7, 5 /*,cBLUE, X_FILL*/);
 	c2.set(41, 12, 7 /*, cRED, O_FILL*/);
 	c3.set(65, 18, 4 /*, cGREEN, MEDIUM_FILL*/);
-	
+
 	c1.draw();
-	
+
 	return 0;
 }

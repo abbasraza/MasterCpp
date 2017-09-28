@@ -12,27 +12,37 @@
 		<key>Ctor1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Ctor2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>DefCopyCtor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>Distance1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
 		</dict>
 		<key>Distance2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>13</integer>
 		</dict>
 		<key>Distance3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>14</integer>
+		</dict>
+		<key>Dtor1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 		<key>HorseRace.xcscheme</key>
 		<dict>
@@ -53,6 +63,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>ObjAsFuncArg1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
 		</dict>
 		<key>Parser.xcscheme</key>
 		<dict>
@@ -78,6 +93,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>ReturnObj.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
 		</dict>
 		<key>SimpleClass1.xcscheme</key>
 		<dict>
@@ -122,6 +142,26 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>EF08C3D01F7A4D64002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3DB1F7A790B002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3E61F7B51F9002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF08C3F11F7B5AFA002848CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EF4643EE1EC1B68800A492C0</key>
 		<dict>
 			<key>primary</key>
@@ -158,6 +198,11 @@
 			<true/>
 		</dict>
 		<key>EFA486E61EBC9B8000D744B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFDE73E41F7CA5EB00841542</key>
 		<dict>
 			<key>primary</key>
 			<true/>

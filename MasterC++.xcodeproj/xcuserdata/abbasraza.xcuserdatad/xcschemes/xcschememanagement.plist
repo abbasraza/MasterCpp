@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>ConstObj.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>Ctor1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -99,6 +104,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Reference1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>ReturnObj.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -123,6 +133,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>Structure1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -198,6 +213,21 @@
 			<true/>
 		</dict>
 		<key>EF9F2EE51F7DF2F7004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2EF01F7E68F7004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2EFB1F80CADB004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F061F847572004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

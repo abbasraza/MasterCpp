@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>Reference2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>ReturnObj.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -228,6 +233,11 @@
 			<true/>
 		</dict>
 		<key>EF9F2F061F847572004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F111F84D6AA004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

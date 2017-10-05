@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Array1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>Array2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>Circles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -238,6 +248,16 @@
 			<true/>
 		</dict>
 		<key>EF9F2F111F84D6AA004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F1C1F85CF8F004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F271F85DF78004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

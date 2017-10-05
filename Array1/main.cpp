@@ -11,6 +11,7 @@
  - Address of array.
  - Passing 1D array as function argument.
  - How elements of 1D array of integers are stored in memory.
+ - When array is passed as argument, and function modifies elements, it will reflect in original array.
 */
 
 #include <iostream>

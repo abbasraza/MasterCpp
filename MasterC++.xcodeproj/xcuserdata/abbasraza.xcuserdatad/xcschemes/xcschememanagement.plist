@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>Array3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>ArrayOfStruct.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 		<key>Circles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -139,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Stack1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>StaticCast.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -258,6 +273,21 @@
 			<true/>
 		</dict>
 		<key>EF9F2F271F85DF78004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F321F860655004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F3D1F860C34004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F481F8613BB004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

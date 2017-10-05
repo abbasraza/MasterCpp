@@ -7,13 +7,16 @@
 //
 
 /* Purpose of this program:
- - Usage of 2D array. Store marks of students in memory (1D) vs store marks of students along with their roll number
+ - Usage of 2D array. Declare, define.
+ - Practical use. Store marks of students in memory (1D) vs store marks of students along with their roll number
    in memory (2D). Consider it as an excel sheet. 1 coloumn for roll numbers and 1 column for marks. or 1 row for
    roll numbers and 1 row for marks.
    2dArray[NUMBER_OF_STUDENTS][FIELDS_PER_STUDENT]
  - Address of array.
  - Passing 2D array as function argument.
  - How elements of 2D array of integers are stored in memory. 1 row, then 2nd, then 3rd after that.
+ - When array is passed as argument, and function modifies elements, it will reflect in original array.
+
  */
 
 #include <iostream>

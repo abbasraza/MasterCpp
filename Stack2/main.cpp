@@ -6,7 +6,6 @@
 //  Copyright © 2017 Self. All rights reserved.
 //
 
-
 /* Purpose of this program:
  - Defining array lenght (const) in class.
  - 'static const' can be defined inside class. what about memory??

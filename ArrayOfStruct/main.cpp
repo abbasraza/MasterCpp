@@ -22,16 +22,9 @@ void get_cities_temperatures(struct temperature ct[])
 {
 	ct[0].max = 40;
 	ct[0].min = 20;
-
-	ct[1].max = 35;
-	ct[1].min = 18;
-
-	ct[2].max = 30;
-	ct[2].min = 15;
-
-	ct[3].max = 20;
-	ct[3].min = 10;
-
+	ct[1] = {35, 18};
+	ct[2] = {30, 15};
+	ct[3] = {20, 10};
 }
 
 void print_cities_temperatures(struct temperature ct[])

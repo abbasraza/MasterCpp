@@ -7,7 +7,7 @@
 //
 
 /* Purpose of this program:
- - Usage of array in class.
+ - Usage of array in class data.
 */
 
 #include <iostream>
@@ -15,8 +15,8 @@
 class Stack
 {
 private:
-	int s[5];  // how to define/use a constant number in class????=
 	int top;
+	int s[10];  // how to define/use a constant number in class???? i.e for lenght of array
 public:
 	Stack(): top(-1)
 	{

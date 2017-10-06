@@ -159,6 +159,11 @@
 			<key>orderHint</key>
 			<integer>30</integer>
 		</dict>
+		<key>Stack2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
 		<key>StaticCast.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -298,6 +303,11 @@
 			<true/>
 		</dict>
 		<key>EF9F2F541F870A59004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F5F1F874B85004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

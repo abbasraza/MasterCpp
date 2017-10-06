@@ -180,6 +180,6 @@ int main(int argc, const char * argv[])
 	struct temperature cities_temperatures7[4] = {[0 ... 2] = {100, 80}, [3] = {90, 10}}; // all the structure elements initialized
 	std::cout << "cities_temperatures7 Array" << std::endl;
 	print_cities_temperatures(cities_temperatures7);
-	
+
 	return 0;
 }

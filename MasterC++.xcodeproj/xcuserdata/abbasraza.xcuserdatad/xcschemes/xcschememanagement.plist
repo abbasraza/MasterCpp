@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>34</integer>
 		</dict>
+		<key>CStringCopy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>Circles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -328,6 +333,11 @@
 			<true/>
 		</dict>
 		<key>EF9F2F751F887417004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F801F888B83004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

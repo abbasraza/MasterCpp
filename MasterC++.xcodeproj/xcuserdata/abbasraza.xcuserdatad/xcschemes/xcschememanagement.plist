@@ -29,6 +29,16 @@
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
+		<key>CString1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
+		<key>CString2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
 		<key>Circles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -308,6 +318,16 @@
 			<true/>
 		</dict>
 		<key>EF9F2F5F1F874B85004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F6A1F875DC3004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F751F887417004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

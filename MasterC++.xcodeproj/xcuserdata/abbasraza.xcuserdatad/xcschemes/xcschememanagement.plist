@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>31</integer>
 		</dict>
+		<key>ArrayClassMember1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
 		<key>ArrayOfCStrings.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>34</integer>
+		</dict>
+		<key>CStringClassMember.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>CStringCopy.xcscheme</key>
 		<dict>
@@ -348,6 +358,16 @@
 			<true/>
 		</dict>
 		<key>EF9F2F8B1F8896E2004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F961F8A0392004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FA11F8A0790004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

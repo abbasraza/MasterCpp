@@ -7,7 +7,7 @@
 //
 
 /* Purpose of this program:
- - Usage of 2D array. Declare, define.
+ - Usage of 2D array (why called 2D?). Declare, define.
  - Practical use. Store marks of students in memory (1D) vs store marks of students along with their roll number
    in memory (2D). Consider it as an excel sheet. 1 coloumn for roll numbers and 1 column for marks. or 1 row for
    roll numbers and 1 row for marks.
@@ -105,16 +105,19 @@ int main(int argc, const char * argv[])
 	 Similarly the address of first element of array is same as address of array.
 	 cout << &student_records[0];
 	 
-	 cout << &student_records; // this is not address of array.
+	 cout << &student_records; // this is also address of array. But we can't pass this in argument.
 	 */
 	
 	std::cout << "Address of array student_records " << &student_records[0] << std::endl;
-	std::cout << "Address of array student_records method 2" << student_records << std::endl;
+	std::cout << "Address of array student_records method 2 " << student_records << std::endl;
+	std::cout << "Address of array student_records method wrong " << &student_records << std::endl;
 
 	
 	print_student_records(&student_records[0]); // This is correct way to pass array in argument.
 	
 	print_2d_array_addresses(student_records);
+	// print_2d_array_addresses(&student_records); // This is wrong
+
 	
 	return 0;
 }

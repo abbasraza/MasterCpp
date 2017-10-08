@@ -59,14 +59,18 @@ int main(int argc, const char * argv[])
 	 Similarly the address of first element of array is same as address of array.
 	 cout << &student_marks[0];
 	 
-	 cout << &student_marks; // this is not address of array.
+	 cout << &student_marks; // this is also address of array. But we can't pass this in argument.
 	*/
 
-	std::cout << "Address of array student_marks " << &student_marks[0] << std::endl;
+	std::cout << "Address of array student_marks method 1 " << student_marks << std::endl;
+	std::cout << "Address of array student_marks method 2 " << &student_marks[0] << std::endl;
+	std::cout << "Address of array student_marks method 3 " << &student_marks << std::endl;
 
 	// print_marks(&student_marks[0], sizeof(student_marks) / sizeof(int)); // This is correct way to pass array in argument.
+	print_marks(student_marks, sizeof(student_marks) / sizeof(int)); //this is also correct.
 
-	print_marks(student_marks, sizeof(student_marks) / sizeof(int));
+	// print_marks(&student_marks, sizeof(student_marks) / sizeof(int)); //this is not correct.
+	
 
 	return 0;
 }

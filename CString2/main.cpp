@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
 	std::cout << "You entered: " << str << std::endl;
 
 	std::cout << "Enter a Para: ";
-	std::cin.get(str, 100, '$');
+	std::cin.get(str, 100, '$'); // take everything until full or got '$'
 	std::cout << "You entered: " << str << std::endl;
 
 	return 0;

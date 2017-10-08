@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>31</integer>
 		</dict>
+		<key>ArrayOfCStrings.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
 		<key>ArrayOfStruct.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -338,6 +343,11 @@
 			<true/>
 		</dict>
 		<key>EF9F2F801F888B83004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2F8B1F8896E2004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

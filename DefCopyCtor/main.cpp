@@ -10,6 +10,7 @@
  - Use of default copy constructor which is a 1 argument constructor built into every class. 
    The argument is the object of same type.
  - Member by member copy of one object into the other happens.
+ - Defining object by providing data in rvalue. TODO . Calls argument wala constructor.
 */
 
 #include <iostream>
@@ -58,10 +59,13 @@ int main()
 	
 	Distance d3 = d1; //default copy ctor will be called. d1 will be passed as argument.
     //member-by-member copy of d1 into d3.
-
+	
+	Distance d4 = {17, 0}; // Is this correct way to initialize object using constructor with arguments.?? works fine.
+	
 	d1.show_distace();
 	d2.show_distace();
 	d3.show_distace();
+	d4.show_distace();
 
 	d3.set_distance(3, 2); // only d3 changed here. d1 and d2 remain unchanged.
 

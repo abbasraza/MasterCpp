@@ -27,6 +27,7 @@ public:
 
 	Student(const char n[], int rn) : roll_number(rn)
 	{
+		//std::cout << "Calling argument wala constructor" << std::endl;
 		strcpy(name, n);
 	}
 
@@ -52,5 +53,8 @@ int main(int argc, const char * argv[]) {
 	Student s2("Fraz", 49);
 	s2.print_student_data();
 	
+	Student s3 = {"Usman", 19}; // This will call argument wala ctor.
+	s3.print_student_data();
+
 	return 0;
 }

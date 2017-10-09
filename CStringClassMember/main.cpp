@@ -11,6 +11,7 @@
  - How to initialize array ?
 		- No argument constructor.
 		- Constructor with arguments.
+ - Copy constructor will copy array.
 */
 
 #include <iostream>
@@ -55,6 +56,14 @@ int main(int argc, const char * argv[]) {
 	
 	Student s3 = {"Usman", 19}; // This will call argument wala ctor.
 	s3.print_student_data();
+	
+	Student s4 = s3; // copy ctor will be called. Array copied.
+	std::cout << "s4 = "; s4.print_student_data();
+
+	s4.store_student_data("Omer", 1);
+
+	std::cout << "s3 = "; s3.print_student_data();
+	std::cout << "s4 = "; s4.print_student_data();
 
 	return 0;
 }

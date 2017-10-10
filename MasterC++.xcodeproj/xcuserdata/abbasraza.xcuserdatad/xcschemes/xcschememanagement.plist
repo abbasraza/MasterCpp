@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
+		<key>CStringClass.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>CStringClassMember.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -203,6 +208,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
+		</dict>
+		<key>StringClass.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
 		</dict>
 		<key>Structure1.xcscheme</key>
 		<dict>
@@ -368,6 +378,16 @@
 			<true/>
 		</dict>
 		<key>EF9F2FA11F8A0790004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FAC1F8B3A9D004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FB71F8B46E0004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

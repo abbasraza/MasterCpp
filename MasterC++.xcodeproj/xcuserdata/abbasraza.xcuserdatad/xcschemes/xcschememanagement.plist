@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>ConstCast.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
 		<key>ConstMemberFunc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -208,6 +213,26 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
+		</dict>
+		<key>String1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>String2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>String3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>String4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
 		</dict>
 		<key>StringClass.xcscheme</key>
 		<dict>
@@ -388,6 +413,31 @@
 			<true/>
 		</dict>
 		<key>EF9F2FB71F8B46E0004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FC21F8CCA77004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FCD1F8CDDAA004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FD81F8DB0A5004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FE31F8DB71F004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FEE1F8DB7A8004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

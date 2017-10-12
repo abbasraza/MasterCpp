@@ -1459,6 +1459,7 @@
 			isa = PBXGroup;
 			children = (
 				EF9F2F501F8613EF004C54A5 /* Old */,
+				EF9F30321F8F98DC004C54A5 /* ArithmeticConversions */,
 				EF4643F01EC1B68800A492C0 /* SignedUnsigned */,
 				EF4643FB1F4D43E900A492C0 /* StaticCast */,
 				EF4EB8AE1F795B570001805E /* SimpleClass1 */,
@@ -1503,7 +1504,6 @@
 				EF9F30111F8F49D3004C54A5 /* OperatorOverloading2 */,
 				EF9F301C1F8F5B13004C54A5 /* OperatorOverloading3 */,
 				EF9F30271F8F82B9004C54A5 /* OperatorOverloading4 */,
-				EF9F30321F8F98DC004C54A5 /* ArithmeticConversions */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";

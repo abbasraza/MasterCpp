@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ArithmeticConversions.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
 		<key>Array1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -158,6 +163,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>50</integer>
+		</dict>
+		<key>OperatorOverloading4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>51</integer>
 		</dict>
 		<key>Parser.xcscheme</key>
 		<dict>
@@ -478,6 +488,16 @@
 			<true/>
 		</dict>
 		<key>EF9F301A1F8F5B13004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F30251F8F82B9004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F30301F8F98DC004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

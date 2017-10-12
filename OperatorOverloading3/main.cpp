@@ -10,7 +10,7 @@
  - How to do concat using + overloaded operator.
    CString str1 = "Hello";
    CString str2 = "Abbas";
-   CString str3 = str1 + " " + str2;
+   CString str3 = str1 + str2;
 */
 
 #include <iostream>
@@ -23,8 +23,8 @@ private:
 public:
 	CString();
 	CString(const char []);
-	void print_string();
-	CString operator + (CString&);
+	void print_string() const;
+	CString operator + (const CString&) const;
 };
 
 CString::CString() : str{'\0'}
@@ -37,18 +37,20 @@ CString::CString(const char s[])
 	strcpy(str, s);
 }
 
-void CString::print_string()
+void CString::print_string() const
 {
 	std::cout << str << std::endl;
 }
 
-
-CString CString::operator + (CString& s)
+CString CString::operator + (const CString& s) const
 {
 	CString r;
 	
-	strcat(r.str, str);
-	strcat(r.str, s.str);
+	if ((strlen(str) + strlen(s.str)) < max_len)
+	{
+		strcpy(r.str, str);
+		strcat(r.str, s.str);
+	}
 	return r;
 }
 
@@ -69,10 +71,13 @@ int main(int argc, const char * argv[])
 {
 	CString s1 = "Hello";
 	CString s2 = "Abbas";
-
-	CString s3 = s1 + s2;
 	
-	std::cout << "s3 = "; s3.print_string();
+	/* Const reference to an object is same as constant object */
+	const CString& s3 = s1;
+	s3.print_string();
+
+	CString s4 = s1 + s2;
+	std::cout << "s4 = "; s4.print_string();
 	
 	return 0;
 }

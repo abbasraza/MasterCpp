@@ -9,7 +9,8 @@
 /* Purpose of this program:
 	- ****** Arithmetic conversions and integral promotions : *******
 	The purpose is to yield a common type, which is also the type of the result.
- 
+	--> https://stackoverflow.com/questions/5563000/implicit-type-conversion-rules-in-c-operators
+	--> c++ standards document.
 
 	Many binary operators that expect operands of arithmetic or enumeration type
 	cause conversions and yield result types in a similar way. The purpose is to

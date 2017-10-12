@@ -144,6 +144,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>OperatorOverloading1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
 		<key>Parser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -168,6 +173,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>Queue.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
 		</dict>
 		<key>Reference1.xcscheme</key>
 		<dict>
@@ -438,6 +448,16 @@
 			<true/>
 		</dict>
 		<key>EF9F2FEE1F8DB7A8004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F2FF91F8DFAF6004C54A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9F30041F8EF086004C54A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -13,6 +13,11 @@
  - Aliases (references) and pointers. int& alias = *ptr;
  - Returning reference to original object from a function.
  - Reference don't change once initialized. Unlike pointers which can be re-pointed to something different.
+ - Here prefix and postfix doesn't make much difference. like we can't differentiate between postfix and prefix.
+   However if we return a copy instead of alias of original object, then we can see difference. Because
+	return Counter(count++); ---> new object will be returned with old counter value.
+	is different from
+	return Counter(++count); ---> new object will be returned with increamented counter value.
 */
 
 #include <iostream>

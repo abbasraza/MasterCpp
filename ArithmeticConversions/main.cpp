@@ -25,16 +25,6 @@
 	— Otherwise, if either operand is float, the other shall be converted to float.
 	— Otherwise, the integral promotions (4.5) shall be performed on both operands. 
 		********************* integral promotions: ***********************
-	- Integer Conversion Rank:
-		- No two signed integer types shall have the same rank, even if they have the same representation.
-		- The rank of a signed integer type shall be greater than the rank of any signed integer type with less precision.
-		- The rank of long long int shall be greater than the rank of long int, which shall be greater than the rank of int, which shall be greater than the rank of short int, which shall be greater than the rank of signed char.
-		- The rank of any unsigned integer type shall equal the rank of the corresponding signed integer type, if any.
-		- The rank of any standard integer type shall be greater than the rank of any extended integer type with the same width.
-		- The rank of char shall equal the rank of signed char and unsigned char.
-		- The rank of any extended signed integer type relative to another extended signed integer type with the same precision is implementation-defined but still subject to the other rules for determining the integer conversion rank.
-		- For all integer types T1, T2, and T3, if T1 has greater rank than T2 and T2 has greater rank than T3, then T1 has greater rank than T3.
-
 		Then the following rules shall be applied to the promoted operands:
 		— If both operands have the same type, no further conversion is needed.
 		— Otherwise, if both operands have signed integer types or both have unsigned integer 
@@ -49,14 +39,71 @@
 		— Otherwise, both operands shall be converted to the unsigned integer type corresponding to the 
 		  type of the operand with signed integer type.
  
+		- Integer Conversion Rank:
+		- No two signed integer types shall have the same rank, even if they have the same representation.
+		- The rank of a signed integer type shall be greater than the rank of any signed integer type with
+		  less precision.
+		- The rank of long long int shall be greater than the rank of long int, which shall be greater than
+		  the rank of int, which shall be greater than the rank of short int, which shall be greater than the
+		  rank of signed char.
+		- The rank of any unsigned integer type shall equal the rank of the corresponding signed integer type,
+		  if any.
+		- The rank of any standard integer type shall be greater than the rank of any extended integer type with
+		  the same width.
+		- The rank of char shall equal the rank of signed char and unsigned char.
+		- The rank of any extended signed integer type relative to another extended signed integer type with the
+		  same precision is implementation-defined but still subject to the other rules for determining the integer
+		  conversion rank.
+		- For all integer types T1, T2, and T3, if T1 has greater rank than T2 and T2 has greater rank than T3, 
+		  then T1 has greater rank than T3.
+
+ 
 	Note. The minimum size of operations is int. So short/char are promoted to int before the operation is done.
 */
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-	float a = 1.999;
-	int b = 10;
-	std::cout << a + b << std::endl;
+void print_float_to_bin(float& v)
+{
+	void * ptr = &v;
+	int * ptr2 = ptr;
+
+	for(int i = 0; i < 32; ++i)
+	{
+		std::cout << ((*ptr2 & (1 << (31 - i))) >> (31 - i));
+	}
+	std::cout << std::endl;
+}
+
+int main(int argc, const char * argv[])
+{
+	std::cout.precision(30);
+	float v = 0.1f;
+	
+	print_float_to_bin(v);
+	//float a = 1.999;
+	//int b = -10;
+
+//	std::cout << .1f << std::endl;
+//	float a = 0.1f + 0.3f;
+//	float b = 0.1f + 0.4f;
+//
+//	/* Here one operand is float and other is int. So other will be converted to float.
+//	   Result will be in float.
+//	*/
+//	//std::cout << a + b << std::endl;
+//	std::cout << a << std::endl;
+//	std::cout << b << std::endl;
+//	
+//	while (0)
+//	{
+//		float v1 = 0.15f + 0.15f;
+//		float v2 = 0.1f + 0.2f;
+//		if (v1 != v2)
+//		{
+//			std::cout << "NOT EQUALLLLLLLLLLL" << std::endl;
+//			break;
+//		}
+//	}
 	return 0;
 }

@@ -20,6 +20,8 @@
 		EF4643FD1F4D43E900A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643FC1F4D43E900A492C0 /* main.cpp */; };
 		EF4EB8B01F795B570001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8AF1F795B570001805E /* main.cpp */; };
 		EF4EB8BB1F79FA370001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8BA1F79FA370001805E /* main.cpp */; };
+		EF53BCCD1FA895F20002315B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53BCCC1FA895F20002315B /* main.cpp */; };
+		EF99A31E1F96E0B600BB136D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99A31D1F96E0B600BB136D /* main.cpp */; };
 		EF9F2EDE1F7D2EEF004C54A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EDD1F7D2EEF004C54A5 /* main.cpp */; };
 		EF9F2EE91F7DF2F7004C54A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EE81F7DF2F7004C54A5 /* main.cpp */; };
 		EF9F2EF41F7E68F7004C54A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EF31F7E68F7004C54A5 /* main.cpp */; };
@@ -179,6 +181,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF4EB8B61F79FA370001805E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF53BCC81FA895F20002315B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF99A3191F96E0B600BB136D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -639,6 +659,10 @@
 		EF4EB8AF1F795B570001805E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF4EB8B81F79FA370001805E /* Circles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Circles; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4EB8BA1F79FA370001805E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF53BCCA1FA895F20002315B /* ReinterpretCast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReinterpretCast; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF53BCCC1FA895F20002315B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF99A31B1F96E0B600BB136D /* Endianess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Endianess; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF99A31D1F96E0B600BB136D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9F2EDB1F7D2EEF004C54A5 /* StaticData1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticData1; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9F2EDD1F7D2EEF004C54A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9F2EE61F7DF2F7004C54A5 /* ConstMemberFunc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConstMemberFunc; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -821,6 +845,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF4EB8B51F79FA370001805E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF53BCC71FA895F20002315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF99A3181F96E0B600BB136D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1265,6 +1303,22 @@
 			path = circles;
 			sourceTree = "<group>";
 		};
+		EF53BCCB1FA895F20002315B /* ReinterpretCast */ = {
+			isa = PBXGroup;
+			children = (
+				EF53BCCC1FA895F20002315B /* main.cpp */,
+			);
+			path = ReinterpretCast;
+			sourceTree = "<group>";
+		};
+		EF99A31C1F96E0B600BB136D /* Endianess */ = {
+			isa = PBXGroup;
+			children = (
+				EF99A31D1F96E0B600BB136D /* main.cpp */,
+			);
+			path = Endianess;
+			sourceTree = "<group>";
+		};
 		EF9F2EDC1F7D2EEF004C54A5 /* StaticData1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1672,6 +1726,8 @@
 				EF9F301C1F8F5B13004C54A5 /* OperatorOverloading3 */,
 				EF9F30271F8F82B9004C54A5 /* OperatorOverloading4 */,
 				EF9F30691F94815C004C54A5 /* Testing */,
+				EF99A31C1F96E0B600BB136D /* Endianess */,
+				EF53BCCB1FA895F20002315B /* ReinterpretCast */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1739,6 +1795,8 @@
 				EF9F305D1F944E41004C54A5 /* Precision1 */,
 				EF9F30681F94815C004C54A5 /* Testing */,
 				EF9F30731F9491FB004C54A5 /* FloatVsDouble */,
+				EF99A31B1F96E0B600BB136D /* Endianess */,
+				EF53BCCA1FA895F20002315B /* ReinterpretCast */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2005,6 +2063,40 @@
 			name = Circles;
 			productName = circles;
 			productReference = EF4EB8B81F79FA370001805E /* Circles */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF53BCC91FA895F20002315B /* ReinterpretCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF53BCD01FA895F20002315B /* Build configuration list for PBXNativeTarget "ReinterpretCast" */;
+			buildPhases = (
+				EF53BCC61FA895F20002315B /* Sources */,
+				EF53BCC71FA895F20002315B /* Frameworks */,
+				EF53BCC81FA895F20002315B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReinterpretCast;
+			productName = ReinterpretCast;
+			productReference = EF53BCCA1FA895F20002315B /* ReinterpretCast */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF99A31A1F96E0B600BB136D /* Endianess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF99A3211F96E0B600BB136D /* Build configuration list for PBXNativeTarget "Endianess" */;
+			buildPhases = (
+				EF99A3171F96E0B600BB136D /* Sources */,
+				EF99A3181F96E0B600BB136D /* Frameworks */,
+				EF99A3191F96E0B600BB136D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endianess;
+			productName = Endianess;
+			productReference = EF99A31B1F96E0B600BB136D /* Endianess */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF9F2EDA1F7D2EEF004C54A5 /* StaticData1 */ = {
@@ -2854,6 +2946,12 @@
 					EF4EB8B71F79FA370001805E = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					EF53BCC91FA895F20002315B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF99A31A1F96E0B600BB136D = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					EF9F2EDA1F7D2EEF004C54A5 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -3069,6 +3167,8 @@
 				EF9F305C1F944E41004C54A5 /* Precision1 */,
 				EF9F30671F94815C004C54A5 /* Testing */,
 				EF9F30721F9491FB004C54A5 /* FloatVsDouble */,
+				EF99A31A1F96E0B600BB136D /* Endianess */,
+				EF53BCC91FA895F20002315B /* ReinterpretCast */,
 			);
 		};
 /* End PBXProject section */
@@ -3175,6 +3275,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4EB8BB1F79FA370001805E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF53BCC61FA895F20002315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF53BCCD1FA895F20002315B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF99A3171F96E0B600BB136D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF99A31E1F96E0B600BB136D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3847,6 +3963,36 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF53BCCE1FA895F20002315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF53BCCF1FA895F20002315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF99A31F1F96E0B600BB136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF99A3201F96E0B600BB136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -4722,6 +4868,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EF53BCD01FA895F20002315B /* Build configuration list for PBXNativeTarget "ReinterpretCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53BCCE1FA895F20002315B /* Debug */,
+				EF53BCCF1FA895F20002315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF99A3211F96E0B600BB136D /* Build configuration list for PBXNativeTarget "Endianess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF99A31F1F96E0B600BB136D /* Debug */,
+				EF99A3201F96E0B600BB136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF9F2EDF1F7D2EEF004C54A5 /* Build configuration list for PBXNativeTarget "StaticData1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4729,6 +4892,7 @@
 				EF9F2EE11F7D2EEF004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2EEA1F7DF2F7004C54A5 /* Build configuration list for PBXNativeTarget "ConstMemberFunc" */ = {
 			isa = XCConfigurationList;
@@ -4737,6 +4901,7 @@
 				EF9F2EEC1F7DF2F7004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2EF51F7E68F7004C54A5 /* Build configuration list for PBXNativeTarget "Reference1" */ = {
 			isa = XCConfigurationList;
@@ -4745,6 +4910,7 @@
 				EF9F2EF71F7E68F7004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F001F80CADB004C54A5 /* Build configuration list for PBXNativeTarget "ConstObj" */ = {
 			isa = XCConfigurationList;
@@ -4753,6 +4919,7 @@
 				EF9F2F021F80CADB004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F0B1F847572004C54A5 /* Build configuration list for PBXNativeTarget "Structure1" */ = {
 			isa = XCConfigurationList;
@@ -4761,6 +4928,7 @@
 				EF9F2F0D1F847572004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F161F84D6AA004C54A5 /* Build configuration list for PBXNativeTarget "Reference2" */ = {
 			isa = XCConfigurationList;
@@ -4769,6 +4937,7 @@
 				EF9F2F181F84D6AA004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F211F85CF8F004C54A5 /* Build configuration list for PBXNativeTarget "Array1" */ = {
 			isa = XCConfigurationList;
@@ -4777,6 +4946,7 @@
 				EF9F2F231F85CF8F004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F2C1F85DF78004C54A5 /* Build configuration list for PBXNativeTarget "Array2" */ = {
 			isa = XCConfigurationList;
@@ -4785,6 +4955,7 @@
 				EF9F2F2E1F85DF78004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F371F860655004C54A5 /* Build configuration list for PBXNativeTarget "Array3" */ = {
 			isa = XCConfigurationList;
@@ -4793,6 +4964,7 @@
 				EF9F2F391F860655004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F421F860C34004C54A5 /* Build configuration list for PBXNativeTarget "ArrayOfStruct" */ = {
 			isa = XCConfigurationList;
@@ -4801,6 +4973,7 @@
 				EF9F2F441F860C34004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F4D1F8613BB004C54A5 /* Build configuration list for PBXNativeTarget "Stack1" */ = {
 			isa = XCConfigurationList;
@@ -4809,6 +4982,7 @@
 				EF9F2F4F1F8613BB004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F591F870A59004C54A5 /* Build configuration list for PBXNativeTarget "Array4" */ = {
 			isa = XCConfigurationList;
@@ -4817,6 +4991,7 @@
 				EF9F2F5B1F870A59004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F641F874B85004C54A5 /* Build configuration list for PBXNativeTarget "Stack2" */ = {
 			isa = XCConfigurationList;
@@ -4825,6 +5000,7 @@
 				EF9F2F661F874B85004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F6F1F875DC3004C54A5 /* Build configuration list for PBXNativeTarget "CString1" */ = {
 			isa = XCConfigurationList;
@@ -4833,6 +5009,7 @@
 				EF9F2F711F875DC3004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F7A1F887418004C54A5 /* Build configuration list for PBXNativeTarget "CString2" */ = {
 			isa = XCConfigurationList;
@@ -4841,6 +5018,7 @@
 				EF9F2F7C1F887418004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F851F888B83004C54A5 /* Build configuration list for PBXNativeTarget "CStringCopy" */ = {
 			isa = XCConfigurationList;
@@ -4849,6 +5027,7 @@
 				EF9F2F871F888B83004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F901F8896E2004C54A5 /* Build configuration list for PBXNativeTarget "ArrayOfCStrings" */ = {
 			isa = XCConfigurationList;
@@ -4857,6 +5036,7 @@
 				EF9F2F921F8896E2004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2F9B1F8A0392004C54A5 /* Build configuration list for PBXNativeTarget "CStringClassMember" */ = {
 			isa = XCConfigurationList;
@@ -4865,6 +5045,7 @@
 				EF9F2F9D1F8A0392004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FA61F8A0790004C54A5 /* Build configuration list for PBXNativeTarget "ArrayClassMember1" */ = {
 			isa = XCConfigurationList;
@@ -4873,6 +5054,7 @@
 				EF9F2FA81F8A0790004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FB11F8B3A9D004C54A5 /* Build configuration list for PBXNativeTarget "CStringClass" */ = {
 			isa = XCConfigurationList;
@@ -4881,6 +5063,7 @@
 				EF9F2FB31F8B3A9D004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FBC1F8B46E0004C54A5 /* Build configuration list for PBXNativeTarget "StringClass" */ = {
 			isa = XCConfigurationList;
@@ -4889,6 +5072,7 @@
 				EF9F2FBE1F8B46E0004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FC71F8CCA77004C54A5 /* Build configuration list for PBXNativeTarget "String1" */ = {
 			isa = XCConfigurationList;
@@ -4897,6 +5081,7 @@
 				EF9F2FC91F8CCA77004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FD21F8CDDAB004C54A5 /* Build configuration list for PBXNativeTarget "String2" */ = {
 			isa = XCConfigurationList;
@@ -4905,6 +5090,7 @@
 				EF9F2FD41F8CDDAB004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FDD1F8DB0A5004C54A5 /* Build configuration list for PBXNativeTarget "String3" */ = {
 			isa = XCConfigurationList;
@@ -4913,6 +5099,7 @@
 				EF9F2FDF1F8DB0A5004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FE81F8DB71F004C54A5 /* Build configuration list for PBXNativeTarget "ConstCast" */ = {
 			isa = XCConfigurationList;
@@ -4921,6 +5108,7 @@
 				EF9F2FEA1F8DB71F004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FF31F8DB7A8004C54A5 /* Build configuration list for PBXNativeTarget "String4" */ = {
 			isa = XCConfigurationList;
@@ -4929,6 +5117,7 @@
 				EF9F2FF51F8DB7A8004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F2FFE1F8DFAF7004C54A5 /* Build configuration list for PBXNativeTarget "Queue" */ = {
 			isa = XCConfigurationList;
@@ -4937,6 +5126,7 @@
 				EF9F30001F8DFAF7004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30091F8EF086004C54A5 /* Build configuration list for PBXNativeTarget "OperatorOverloading1" */ = {
 			isa = XCConfigurationList;
@@ -4945,6 +5135,7 @@
 				EF9F300B1F8EF086004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30141F8F49D3004C54A5 /* Build configuration list for PBXNativeTarget "OperatorOverloading2" */ = {
 			isa = XCConfigurationList;
@@ -4953,6 +5144,7 @@
 				EF9F30161F8F49D3004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F301F1F8F5B13004C54A5 /* Build configuration list for PBXNativeTarget "OperatorOverloading3" */ = {
 			isa = XCConfigurationList;
@@ -4961,6 +5153,7 @@
 				EF9F30211F8F5B13004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F302A1F8F82B9004C54A5 /* Build configuration list for PBXNativeTarget "OperatorOverloading4" */ = {
 			isa = XCConfigurationList;
@@ -4969,6 +5162,7 @@
 				EF9F302C1F8F82B9004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30351F8F98DC004C54A5 /* Build configuration list for PBXNativeTarget "ArithmeticConversions" */ = {
 			isa = XCConfigurationList;
@@ -4977,6 +5171,7 @@
 				EF9F30371F8F98DC004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30401F91A043004C54A5 /* Build configuration list for PBXNativeTarget "FloatingPoint1" */ = {
 			isa = XCConfigurationList;
@@ -4985,6 +5180,7 @@
 				EF9F30421F91A043004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F304B1F91E0A9004C54A5 /* Build configuration list for PBXNativeTarget "TypeCasting" */ = {
 			isa = XCConfigurationList;
@@ -4993,6 +5189,7 @@
 				EF9F304D1F91E0A9004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30561F9337D5004C54A5 /* Build configuration list for PBXNativeTarget "AssemblyCMP" */ = {
 			isa = XCConfigurationList;
@@ -5001,6 +5198,7 @@
 				EF9F30581F9337D5004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30611F944E41004C54A5 /* Build configuration list for PBXNativeTarget "Precision1" */ = {
 			isa = XCConfigurationList;
@@ -5009,6 +5207,7 @@
 				EF9F30631F944E41004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F306C1F94815C004C54A5 /* Build configuration list for PBXNativeTarget "Testing" */ = {
 			isa = XCConfigurationList;
@@ -5017,6 +5216,7 @@
 				EF9F306E1F94815C004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF9F30771F9491FB004C54A5 /* Build configuration list for PBXNativeTarget "FloatVsDouble" */ = {
 			isa = XCConfigurationList;
@@ -5025,6 +5225,7 @@
 				EF9F30791F9491FB004C54A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA486A31EB7572B00D744B3 /* Build configuration list for PBXNativeTarget "ParserMix" */ = {
 			isa = XCConfigurationList;

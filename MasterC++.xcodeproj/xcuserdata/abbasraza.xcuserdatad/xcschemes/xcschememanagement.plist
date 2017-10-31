@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>Endianess.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
 		<key>FloatVsDouble.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -228,6 +233,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>26</integer>
+		</dict>
+		<key>ReinterpretCast.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>60</integer>
 		</dict>
 		<key>ReturnObj.xcscheme</key>
 		<dict>
@@ -368,6 +378,16 @@
 			<true/>
 		</dict>
 		<key>EF4EB8B71F79FA370001805E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF53BCC91FA895F20002315B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF99A31A1F96E0B600BB136D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

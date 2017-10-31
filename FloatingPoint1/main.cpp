@@ -8,6 +8,8 @@
 
 
 /*
+ TODO: more time needed. comparing floats proper method. more practice and use cases, understanding.
+
  Purpose of this program: 
  
  - What are Floating point numbers
@@ -32,7 +34,29 @@
  - converting double to float and vice versa?
  - float, double, and long double.
  
- 
+	 How large/small real numbers are stored/used?
+	 What is floating point representation scientific notation? exponent/mantissa/sign?
+	 Binary fraction?
+	 normalize number?
+	 How to convert real number to binary floating point representation?
+	 Rounding errors, why adding 1 to last bit?
+	 what is precision? what is precision of float and double? 7 decimal digits? 16 decimal digits?
+	 which one to use float OR double?? Depends float=less space, less precision. check floatvsdouble program.
+	 Max value float can hold? minimum value float can hold?
+	 Max value double can hold? minumum value double can hold?
+	 How float stored? from representation in code to binary/registers/assembly?
+	 How large can be the non-fractional part and fractional part?
+	 how changing precision cout works?
+	 float and double comparison?
+	 float and double conversion?
+	 double vs long double?
+	 By default double (un suffixed)
+	 Arithmetic conversion . expression involving float and int etc. int will be converted to float.
+	 why no limit on how many digits we can append after . decimal point??
+	 IEEE 754
+	 comparison of floating point numbers?
+	 double decreases speed?
+	 
  
  Docs important: what every programmer should know about floating point numbers.
  youtube videos

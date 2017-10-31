@@ -9,13 +9,14 @@
 /* Purpose of this program:
  - Usage of reference (Alias). Just a different name for a variable.
  - Reference in assignment.
+ - Constant reference.
  - Pass by reference.
  - Return by reference. 
 	- Reference to local variable.
 	- Reference to global variable.
 	- Reference on left side of = . Means original variable will be changed.
 	- Reference on right side of =. Means original variable will remain unchanged.
-  
+ 
  Assign reference:
  =================
     int& v = some variable name (lets say i); // reference defined.
@@ -106,6 +107,9 @@ int main(int argc, const char * argv[]) {
 	std::cout << "Value of t1 " << t1 << std::endl;
 
 	std::cout << "Value of x " << x << std::endl;
+
+	int t2 = 10;
+	const int& t2_ref = t2;
 
     return 0;
 }

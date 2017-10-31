@@ -9,7 +9,7 @@
 /* Purpose of this program:
  - Usage of == overloaded operator.
  - float + int arithmetic conversion = float.
- */
+*/
 
 #include <iostream>
 
@@ -20,7 +20,7 @@ private:
 	float inch;
 public:
 	// constructor has no return type
-	Distance():feet(0), inch(0.0) // initializer list. initialize to 0 or any other hard-coded value
+	Distance():feet(0), inch(0.0f) // initializer list. initialize to 0 or any other hard-coded value
 	{
 		//std::cout << "Constructor called" << std::endl;
 	}
@@ -80,12 +80,18 @@ bool Distance::operator == (const Distance& d) const
 
 int main()
 {
-	Distance d1(9, 9.33);
-	Distance d2(4, 1);
-	Distance d3(9, 9.33);
+	Distance d1(9, 9.34567811f);
+	Distance d2(4, 1.0f);
+	Distance d3(9, 9.34567890f);
+	Distance d4(9, 9.34567111f);
+
+	// inch in d1 and d3 have same first 7 digits.
+	// inch in d1 and d4 have different first 7 digits.
+	// so d1 is = to d3 but not equal to d4.
 
 	std::cout << "d1 and d2 are" << (d1 == d2 ? "" : " not") << " equal" << std::endl;
 	std::cout << "d1 and d3 are" << (d1 == d3 ? "" : " not") << " equal" << std::endl;
+	std::cout << "d1 and d4 are" << (d1 == d4 ? "" : " not") << " equal" << std::endl;
 
 	return 0;
 }

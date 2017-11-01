@@ -189,6 +189,16 @@
 			<key>orderHint</key>
 			<integer>51</integer>
 		</dict>
+		<key>OperatorOverloading5.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>61</integer>
+		</dict>
+		<key>OperatorOverloading6.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>62</integer>
+		</dict>
 		<key>Parser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -313,6 +323,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>54</integer>
+		</dict>
+		<key>UserDefinedTypeConversion.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>63</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -633,6 +648,21 @@
 			<true/>
 		</dict>
 		<key>EFE2D3B61EB634CA00407470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCD641FA8CC7100711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCD6F1FA9963F00711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCD7A1FA9A5BE00711E8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

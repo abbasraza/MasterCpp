@@ -48,7 +48,6 @@ public:
 	Distance add_distance(Distance&);
 	Distance operator + (const Distance&) const;
 	bool operator == (const Distance&) const;
-
 };
 
 Distance Distance::operator + (const Distance& d) const

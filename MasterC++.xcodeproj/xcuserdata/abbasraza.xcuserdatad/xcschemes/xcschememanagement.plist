@@ -114,6 +114,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>Ctor3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
 		<key>DefCopyCtor.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -163,6 +168,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>Inheritance1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>Inheritance2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>69</integer>
 		</dict>
 		<key>Linked List.xcscheme</key>
 		<dict>
@@ -703,6 +718,21 @@
 			<true/>
 		</dict>
 		<key>EFFCCDA81FAA679C00711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCDB31FAB3EA200711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCDBE1FAC2DE300711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCDC91FAC690A00711E8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

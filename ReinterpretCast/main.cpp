@@ -28,6 +28,8 @@
    return reinterpret_cast<unsigned char*>(&x); -----> error
    }
  - For opaque libraries. when static_cast doesn't work.
+ 
+ - Compile time or runtime? TODO machine code / assembly difference?
 */
 
 #include <iostream>

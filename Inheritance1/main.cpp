@@ -8,28 +8,38 @@
 
 /* Purpose of this program:
  - Introduction to inheritance.
+ 
+ - Here:
+	D = derived
+	B = base
 
  - Private and public inheritance.
 
- - Use of protected data member. can be accessed by derived class but not by public.
+ - Use of protected data member. can be accessed by D class but not by public.
 
- - Data & functions of Base which can be accessed directly (using dot operator)
-	- Inside:
-		Base --> all
-		Derived --> all except private
+ - Data & functions of B which can be accessed directly (using dot operator)
+	- Inside class:
+		B --> all
+		D --> all except private
 	- By Objects of:
-		Base and Publicly derived class --> only public
-		Privately derived class --> none
+		B and Publicly D class --> only public
+		Privately D class --> none
  
- - When we derive a class from Base, the Base class says to derived:
+ - When we derive a class from B, the B class says to D:
  - You can't access my private data directly.
  - You can use my no argument ctor. ??? TODO wrong see Inheritance2
  - (public inheritance): Your objects can only access my public stuff directly.
  - (private inheritance): Your objects cannot access any of my stuff directly.
 
- - If derived (no matter public or private) class doesn't have a no argument ctor, the ctor of Base is called when object of
-   derived class is created. ?? TODO wrong. see Inheritance2
-
+ - If D (no matter public or private) class doesn't have a no argument ctor, the ctor of B is called when object of
+   D class is created. ?? TODO wrong. see Inheritance2
+ 
+ - class CountDown : Counter
+   {
+   }
+   This means private inheritance.
+ 
+ - When to use private inheritance? : when hiding B completely from D's objects.
 */
 
 #include <iostream>
@@ -72,9 +82,9 @@ int main()
 	Counter c1;
 	++c1;
 	std::cout << "c1 = " << c1.get_count() << std::endl;
-	//--c1; // fail. Base can't use Derived class's functions.
+	//--c1; // fail. B can't use D class's functions.
 
-	CountDown c2; // No argument ctor of Base class called.
+	CountDown c2; // No argument ctor of B class called.
 	++c2;
 	++c2;
 	++c2;
@@ -82,6 +92,6 @@ int main()
 	--c2;
 	std::cout << "c2 = " << c2.get_count() << std::endl;
 
-//	CountDown c3(10); // fail. Derived class doesn't have 1 argument ctor.
+//	CountDown c3(10); // fail. D class doesn't have 1 argument ctor.
 	return 0;
 }

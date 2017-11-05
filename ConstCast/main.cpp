@@ -11,6 +11,8 @@
  - Usage of const_cast
  - How const_cast can cast const char * pointer returned by c_str() to non constant pointer.
  - We then use this pointer to modify original string.
+ 
+ - Compile time or runtime? TODO machine code / assembly difference?
 */
 
 #include <iostream>

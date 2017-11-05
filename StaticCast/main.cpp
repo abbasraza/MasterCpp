@@ -44,6 +44,7 @@
 		***Assume**** that the P* points to a P that is part of a C object; don't bother performing a check. Adjust the address of the pointer if necessary so that it will point to the C object.
  - https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer
  
+ - Compile time or runtime? TODO machine code / assembly difference?
 */
 
 #include <iostream>

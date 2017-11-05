@@ -65,6 +65,11 @@ private:
 	int feet;
 	float inch;
 public:
+	/* This ctor can be 0-argument, 1-argument or 2-argument. both the parameters are optional.
+	 ==>> if no parameter is provided: both parameters will take default vaules.
+	 ==>> if first parameter is provided only: 2nd parameter will take default value.
+	 ==>> if both parameters are provided: provided parameters will be used.
+	*/
 	Distance(int f = 0, float i = 0.0f) : feet(f), inch(i)
 	{
 	}

@@ -8,6 +8,17 @@
 
 /* Purpose of this program:
  - Abstract class. Employee here is abstract because we never will create an object for this.
+ 
+               -----------
+        ----> |  Employee | <-----
+       |       -----------        |
+	   |                          |
+	   |                          |
+	   |                          |
+  -----------                  -------
+ | Scientist |                | Labor |
+  -----------                  -------
+
  - Usage of inheritance.
  - Scope resolution is required when we need to instruct compiler how to serve our call. i.e
    when there is a chance that compiler will get confused if we don't tell it.

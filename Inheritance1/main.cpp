@@ -9,6 +9,16 @@
 /* Purpose of this program:
  - Introduction to inheritance.
  
+  ---------
+ | Counter |
+  ---------
+	  ^
+	  |
+	  |
+ -----------
+| CountDown |
+ -----------
+
  - Here:
 	D = derived
 	B = base

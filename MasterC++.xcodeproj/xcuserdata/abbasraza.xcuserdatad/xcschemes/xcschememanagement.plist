@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AggregationComposition1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>82</integer>
+		</dict>
+		<key>AggregationComposition2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
 		<key>ArithmeticConversions.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -189,10 +199,40 @@
 			<key>orderHint</key>
 			<integer>69</integer>
 		</dict>
-		<key>InheritanceLevel.xcscheme</key>
+		<key>Inheritance3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
+		<key>Inheritance4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
+		<key>Inheritance5.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>Inheritance6.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
+		<key>Inheritance7.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>InheritanceLevel1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>73</integer>
+		</dict>
+		<key>InheritanceLevel2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
 		</dict>
 		<key>Linked List.xcscheme</key>
 		<dict>
@@ -203,6 +243,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>MultipleInheritance1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
+		<key>MultipleInheritance2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>81</integer>
 		</dict>
 		<key>MutableKeyword.xcscheme</key>
 		<dict>
@@ -763,6 +813,56 @@
 			<true/>
 		</dict>
 		<key>EFFCCDEA1FAF244B00711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCDF51FAF494400711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE001FB0486500711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE0B1FB0835900711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE161FB098C200711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE211FB09A7000711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE2C1FB0AEB900711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE371FB0B13000711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE421FB0B22100711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE4D1FB0D83C00711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE581FB0F6E000711E8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

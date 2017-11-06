@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EFFCCDEA1FAF244B00711E8A"
-               BuildableName = "InheritanceLevel"
-               BlueprintName = "InheritanceLevel"
+               BlueprintIdentifier = "EFFCCE211FB09A7000711E8A"
+               BuildableName = "Inheritance4"
+               BlueprintName = "Inheritance4"
                ReferencedContainer = "container:MasterC++.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFFCCDEA1FAF244B00711E8A"
-            BuildableName = "InheritanceLevel"
-            BlueprintName = "InheritanceLevel"
+            BlueprintIdentifier = "EFFCCE211FB09A7000711E8A"
+            BuildableName = "Inheritance4"
+            BlueprintName = "Inheritance4"
             ReferencedContainer = "container:MasterC++.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFFCCDEA1FAF244B00711E8A"
-            BuildableName = "InheritanceLevel"
-            BlueprintName = "InheritanceLevel"
+            BlueprintIdentifier = "EFFCCE211FB09A7000711E8A"
+            BuildableName = "Inheritance4"
+            BlueprintName = "Inheritance4"
             ReferencedContainer = "container:MasterC++.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFFCCDEA1FAF244B00711E8A"
-            BuildableName = "InheritanceLevel"
-            BlueprintName = "InheritanceLevel"
+            BlueprintIdentifier = "EFFCCE211FB09A7000711E8A"
+            BuildableName = "Inheritance4"
+            BlueprintName = "Inheritance4"
             ReferencedContainer = "container:MasterC++.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

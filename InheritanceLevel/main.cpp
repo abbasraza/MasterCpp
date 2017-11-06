@@ -8,15 +8,21 @@
 
 /* Purpose of this program:
  - Levels of inheritance.
- A
- ^
- |
- |
- B
- ^
- |
- |
- C
+    ----------
+   | Employee |
+    ----------
+	     ^
+	     |
+	     |
+    -----------
+   | Scientist |
+    -----------
+	     ^
+	     |
+	     |
+  ----------------
+ | ChiefScientist |
+  ----------------
 
  - How public and private inheritance work with levels. if Outer is private ( B below),
    inner becomes private if not (A below). If inner is private (A below) and outer is public
@@ -79,6 +85,15 @@
  Object of C: Cannot access pub of B, nor A.
  ==========================================================================
  
+ - Here we can do 
+ 
+ class chiefScientist : private Scientist, Employee
+ {
+ }
+ 
+ But it would be wrong. ChiefScientist will be containing then 2 copies of Employee,
+ 1 from Scientist and other from Employee.
+
 */
 
 #include <iostream>
@@ -114,12 +129,12 @@ public:
 	}
 };
 
-class CheifScientist : private Scientist
+class chiefScientist : private Scientist
 {
 private:
 	int scientists_under_supervision;
 public:
-	CheifScientist(std::string n = "", int i = 0, int p = 0, int supervising = 0) : Scientist(n, i, p), scientists_under_supervision(supervising)
+	chiefScientist(std::string n = "", int i = 0, int p = 0, int supervising = 0) : Scientist(n, i, p), scientists_under_supervision(supervising)
 	{
 	}
 	void show_chiefscientist()
@@ -134,7 +149,7 @@ int main(int argc, const char * argv[])
 	Scientist s("Abbas", 17);
 	s.show_scientist();
 
-	CheifScientist cs("Cheif sb", 10, 59, 5);
+	chiefScientist cs("chief sb", 10, 59, 5);
 	cs.show_chiefscientist();
 
 	return 0;

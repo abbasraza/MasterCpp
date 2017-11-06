@@ -8,6 +8,17 @@
 
 /* Purpose of this program:
  - Usage of function overriding. Polymorphism (many same) How to improve existing classes (functions).
+
+  -------
+ | Stack |
+  -------
+	 ^
+	 |
+	 |
+  --------
+ | Stack2 |
+  --------
+
  - Overriding is done by using same function name, return and parameters.
  - Scope resolution. Compiler won't know which class's function we are calling, i.e of B or D.
    so in D we do B::function();

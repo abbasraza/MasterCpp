@@ -8,6 +8,17 @@
 
 /* Purpose of this program:
  - ctor and inheritance.
+
+  ---------
+ | Counter |
+  ---------
+	  ^
+	  |
+	  |
+ -----------
+| CountDown |
+ -----------
+
  - To create a child, first a parent will be created then child.
  - Here:
 	D = derived

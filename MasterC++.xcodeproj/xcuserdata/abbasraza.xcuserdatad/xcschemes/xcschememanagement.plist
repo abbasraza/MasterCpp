@@ -84,7 +84,7 @@
 			<key>orderHint</key>
 			<integer>36</integer>
 		</dict>
-		<key>CStringtoString.xcscheme</key>
+		<key>CStringtoCStyleString.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>64</integer>
@@ -419,11 +419,6 @@
 			<key>orderHint</key>
 			<integer>57</integer>
 		</dict>
-		<key>Testtarget.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>84</integer>
-		</dict>
 		<key>TypeCasting.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -503,6 +498,11 @@
 			<true/>
 		</dict>
 		<key>EF53BCC91FA895F20002315B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF79289C1FB1B519003C1526</key>
 		<dict>
 			<key>primary</key>
 			<true/>

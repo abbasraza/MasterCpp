@@ -1,0 +1,8 @@
+If you want to change a target name in Xcode then change:
+
+1. (optional ? ) Product Name Original in xcode config file
+2. Folder Name in Xcode
+3. Directory Name in Filesystem via Xcode rightmost hidden window on top. (Identity and Type)
+4. Target Name, it will change product name automatically.
+5. Scheme Name
+

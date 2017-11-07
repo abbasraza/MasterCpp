@@ -419,6 +419,11 @@
 			<key>orderHint</key>
 			<integer>57</integer>
 		</dict>
+		<key>Testtarget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
 		<key>TypeCasting.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -863,6 +868,11 @@
 			<true/>
 		</dict>
 		<key>EFFCCE581FB0F6E000711E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFCCE631FB1964100711E8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

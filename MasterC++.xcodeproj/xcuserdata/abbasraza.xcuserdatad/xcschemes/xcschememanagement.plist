@@ -344,6 +344,16 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>Reference3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
+		<key>ReferenceAssembly.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
 		<key>ReinterpretCast.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -503,6 +513,16 @@
 			<true/>
 		</dict>
 		<key>EF79289C1FB1B519003C1526</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF85D6901FB1D9E900A7E52B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF85D69B1FB208F200A7E52B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -21,6 +21,8 @@
 		EF4EB8B01F795B570001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8AF1F795B570001805E /* main.cpp */; };
 		EF4EB8BB1F79FA370001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8BA1F79FA370001805E /* main.cpp */; };
 		EF53BCCD1FA895F20002315B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53BCCC1FA895F20002315B /* main.cpp */; };
+		EF85D6941FB1D9E900A7E52B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85D6931FB1D9E900A7E52B /* main.cpp */; };
+		EF85D69F1FB208F200A7E52B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85D69E1FB208F200A7E52B /* main.cpp */; };
 		EF99A31E1F96E0B600BB136D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99A31D1F96E0B600BB136D /* main.cpp */; };
 		EF9F2EDE1F7D2EEF004C54A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EDD1F7D2EEF004C54A5 /* main.cpp */; };
 		EF9F2EE91F7DF2F7004C54A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EE81F7DF2F7004C54A5 /* main.cpp */; };
@@ -213,6 +215,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF53BCC81FA895F20002315B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF85D68F1FB1D9E900A7E52B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF85D69A1FB208F200A7E52B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -891,6 +911,10 @@
 		EF4EB8BA1F79FA370001805E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF53BCCA1FA895F20002315B /* ReinterpretCast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReinterpretCast; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF53BCCC1FA895F20002315B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF85D6911FB1D9E900A7E52B /* ReferenceAssembly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReferenceAssembly; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85D6931FB1D9E900A7E52B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF85D69C1FB208F200A7E52B /* Reference3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Reference3; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85D69E1FB208F200A7E52B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF99A31B1F96E0B600BB136D /* Endianess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Endianess; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF99A31D1F96E0B600BB136D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9F2EDB1F7D2EEF004C54A5 /* StaticData1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticData1; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1130,6 +1154,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF53BCC71FA895F20002315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85D68E1FB1D9E900A7E52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85D6991FB208F200A7E52B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1748,6 +1786,22 @@
 			path = ReinterpretCast;
 			sourceTree = "<group>";
 		};
+		EF85D6921FB1D9E900A7E52B /* ReferenceAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				EF85D6931FB1D9E900A7E52B /* main.cpp */,
+			);
+			path = ReferenceAssembly;
+			sourceTree = "<group>";
+		};
+		EF85D69D1FB208F200A7E52B /* Reference3 */ = {
+			isa = PBXGroup;
+			children = (
+				EF85D69E1FB208F200A7E52B /* main.cpp */,
+			);
+			path = Reference3;
+			sourceTree = "<group>";
+		};
 		EF99A31C1F96E0B600BB136D /* Endianess */ = {
 			isa = PBXGroup;
 			children = (
@@ -2188,6 +2242,8 @@
 				EFFCCE021FB0486500711E8A /* MultipleInheritance2 */,
 				EFFCCE5A1FB0F6E000711E8A /* AggregationComposition1 */,
 				EFFCCE0D1FB0835900711E8A /* AggregationComposition2 */,
+				EF85D6921FB1D9E900A7E52B /* ReferenceAssembly */,
+				EF85D69D1FB208F200A7E52B /* Reference3 */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2280,6 +2336,8 @@
 				EFFCCE431FB0B22100711E8A /* Inheritance7 */,
 				EFFCCE4E1FB0D83C00711E8A /* InheritanceLevel2 */,
 				EFFCCE591FB0F6E000711E8A /* AggregationComposition1 */,
+				EF85D6911FB1D9E900A7E52B /* ReferenceAssembly */,
+				EF85D69C1FB208F200A7E52B /* Reference3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2749,6 +2807,40 @@
 			name = ReinterpretCast;
 			productName = ReinterpretCast;
 			productReference = EF53BCCA1FA895F20002315B /* ReinterpretCast */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF85D6901FB1D9E900A7E52B /* ReferenceAssembly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85D6971FB1D9E900A7E52B /* Build configuration list for PBXNativeTarget "ReferenceAssembly" */;
+			buildPhases = (
+				EF85D68D1FB1D9E900A7E52B /* Sources */,
+				EF85D68E1FB1D9E900A7E52B /* Frameworks */,
+				EF85D68F1FB1D9E900A7E52B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReferenceAssembly;
+			productName = ReferenceAssembly;
+			productReference = EF85D6911FB1D9E900A7E52B /* ReferenceAssembly */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF85D69B1FB208F200A7E52B /* Reference3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85D6A01FB208F200A7E52B /* Build configuration list for PBXNativeTarget "Reference3" */;
+			buildPhases = (
+				EF85D6981FB208F200A7E52B /* Sources */,
+				EF85D6991FB208F200A7E52B /* Frameworks */,
+				EF85D69A1FB208F200A7E52B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reference3;
+			productName = Reference3;
+			productReference = EF85D69C1FB208F200A7E52B /* Reference3 */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF99A31A1F96E0B600BB136D /* Endianess */ = {
@@ -4009,6 +4101,12 @@
 					EF53BCC91FA895F20002315B = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					EF85D6901FB1D9E900A7E52B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF85D69B1FB208F200A7E52B = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					EF99A31A1F96E0B600BB136D = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -4321,6 +4419,8 @@
 				EFFCCE001FB0486500711E8A /* MultipleInheritance2 */,
 				EFFCCE581FB0F6E000711E8A /* AggregationComposition1 */,
 				EFFCCE0B1FB0835900711E8A /* AggregationComposition2 */,
+				EF85D6901FB1D9E900A7E52B /* ReferenceAssembly */,
+				EF85D69B1FB208F200A7E52B /* Reference3 */,
 			);
 		};
 /* End PBXProject section */
@@ -4435,6 +4535,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF53BCCD1FA895F20002315B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85D68D1FB1D9E900A7E52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85D6941FB1D9E900A7E52B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85D6981FB208F200A7E52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85D69F1FB208F200A7E52B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5315,6 +5431,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF85D6951FB1D9E900A7E52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF85D6961FB1D9E900A7E52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF85D6A11FB208F200A7E52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF85D6A21FB208F200A7E52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -6580,6 +6728,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EF85D6971FB1D9E900A7E52B /* Build configuration list for PBXNativeTarget "ReferenceAssembly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85D6951FB1D9E900A7E52B /* Debug */,
+				EF85D6961FB1D9E900A7E52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF85D6A01FB208F200A7E52B /* Build configuration list for PBXNativeTarget "Reference3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85D6A11FB208F200A7E52B /* Debug */,
+				EF85D6A21FB208F200A7E52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		EF99A3211F96E0B600BB136D /* Build configuration list for PBXNativeTarget "Endianess" */ = {
 			isa = XCConfigurationList;

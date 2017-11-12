@@ -110,6 +110,7 @@ int main(int argc, const char * argv[]) {
 
 	int t2 = 10;
 	const int& t2_ref = t2;
+	int& t3_ref = const_cast<int&>(t2_ref);
 
     return 0;
 }

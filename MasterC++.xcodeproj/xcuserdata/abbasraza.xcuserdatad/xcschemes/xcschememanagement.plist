@@ -319,6 +319,16 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>PointerArrayReference1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>86</integer>
+		</dict>
+		<key>PointerArrayReference2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>87</integer>
+		</dict>
 		<key>PointerToPointer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

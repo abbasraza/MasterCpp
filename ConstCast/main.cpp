@@ -9,7 +9,7 @@
 //- NOTE: CODE IS MESS HERE. READ RULES AND CONCLUSIONS INSTEAD.
 
 /* Purpose of this program:
- - Only changes cv-qualification; all other casts cannot cast away constness. Can't change type.
+ - Only changes cv-qualification; all other casts cannot cast away constness. Can't change type. can't convert float to int.
  - Removing constness from pointers:
  ~~~~~~~~~~~~~~~~~~
  - Single pointer:

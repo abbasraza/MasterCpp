@@ -322,12 +322,17 @@
 		<key>PointerArrayReference1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>87</integer>
 		</dict>
 		<key>PointerArrayReference2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>87</integer>
+			<integer>86</integer>
+		</dict>
+		<key>PointerArrayReference3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>88</integer>
 		</dict>
 		<key>PointerToPointer.xcscheme</key>
 		<dict>

@@ -9,7 +9,8 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[])
+{
 	
 	int num1 = 10;
 	int num2 = 20;

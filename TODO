@@ -4,3 +4,6 @@ Inheritance:
 - Composition practice
 - Virtual inheritance
 
+- pointer to reference conversion
+- const_cast with reference
+- reference to array

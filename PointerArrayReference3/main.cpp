@@ -11,7 +11,8 @@
  - Use of array of int pointers
  - Use of 1d/2d array of characters
  - TODO: reference to array
- 
+ - VLA (variable lenght array) on stack. Determining the lenght of array at run time.
+ - VLA on heap using (malloc?)
 */
 
 #include <iostream>
@@ -156,6 +157,14 @@ void func17(char ** array, int rows)
 	}
 }
 
+void fill_array(int * array, int len)
+{
+	for (int i = 0; i < len; ++i)
+	{
+		array[i] = i;
+	}
+}
+
 int main(int argc, const char * argv[])
 {
 	/*
@@ -246,5 +255,19 @@ int main(int argc, const char * argv[])
 	func16(array8, 3);
 	func17(array8, 3);
 
+	
+	/*
+	 #####################################################################
+	 ############ 			VLA (Variable Length Array)		 #############
+	 #####################################################################
+	 */
+
+	int i;
+	std::cout << "Enter lenght of array:";
+	std::cin >> i;
+	int array9[i];
+
+	fill_array(array9, i);
+	func1(array9, i);
 	return 0;
 }

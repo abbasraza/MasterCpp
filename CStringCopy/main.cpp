@@ -7,7 +7,9 @@
 //
 
 /* Purpose of this program:
- - Usage of strcpy. strcpy appends null character to string at end. Normal copying doesn't.
+ - Usage of stpcpy(char * dst, const char * src);
+ - strcpy() functions copy the string src to dst (including the terminating `\0' character.)
+    Normal copying doesn't.
 */
 
 #include <iostream>

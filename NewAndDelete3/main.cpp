@@ -6,7 +6,10 @@
 //  Copyright © 2017 Self. All rights reserved.
 //
 
-/*
+/* Purpose of this program:
+ - Usage of dynamic memory allocation in objects.
+ - Freeing memory in dtor when project gets destroyed.
+ 
  - Usage of stpcpy(char * dst, const char * src);
  - strcpy() functions copy the string src to dst (including the terminating `\0' character.)
 

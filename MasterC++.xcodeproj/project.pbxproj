@@ -24,6 +24,8 @@
 		EF4EB8BB1F79FA370001805E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4EB8BA1F79FA370001805E /* main.cpp */; };
 		EF53BCCD1FA895F20002315B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53BCCC1FA895F20002315B /* main.cpp */; };
 		EF715EA01FB387DD000A3AAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF715E9F1FB387DD000A3AAB /* main.cpp */; };
+		EF838C301FC89FF5008BACF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF838C2F1FC89FF5008BACF3 /* main.cpp */; };
+		EF838C3B1FC8BFAC008BACF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF838C3A1FC8BFAC008BACF3 /* main.cpp */; };
 		EF85D6941FB1D9E900A7E52B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85D6931FB1D9E900A7E52B /* main.cpp */; };
 		EF85D69F1FB208F200A7E52B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85D69E1FB208F200A7E52B /* main.cpp */; };
 		EF99A31E1F96E0B600BB136D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99A31D1F96E0B600BB136D /* main.cpp */; };
@@ -248,6 +250,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF715E9B1FB387DD000A3AAB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF838C2B1FC89FF5008BACF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF838C361FC8BFAC008BACF3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -978,6 +998,10 @@
 		EF715E9D1FB387DD000A3AAB /* PointerArrayReference1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PointerArrayReference1; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF715E9F1FB387DD000A3AAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF715EAC1FB425F6000A3AAB /* int_pointer_array.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = int_pointer_array.jpg; sourceTree = "<group>"; };
+		EF838C2D1FC89FF5008BACF3 /* DynamicAllocObject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicAllocObject; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF838C2F1FC89FF5008BACF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF838C381FC8BFAC008BACF3 /* DynamicString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicString; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF838C3A1FC8BFAC008BACF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF85D6911FB1D9E900A7E52B /* ReferenceAssembly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReferenceAssembly; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF85D6931FB1D9E900A7E52B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF85D69C1FB208F200A7E52B /* Reference3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Reference3; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1248,6 +1272,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF715E9A1FB387DD000A3AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF838C2A1FC89FF5008BACF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF838C351FC8BFAC008BACF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1926,6 +1964,22 @@
 			path = PointerArrayReference1;
 			sourceTree = "<group>";
 		};
+		EF838C2E1FC89FF5008BACF3 /* DynamicAllocObject */ = {
+			isa = PBXGroup;
+			children = (
+				EF838C2F1FC89FF5008BACF3 /* main.cpp */,
+			);
+			path = DynamicAllocObject;
+			sourceTree = "<group>";
+		};
+		EF838C391FC8BFAC008BACF3 /* DynamicString */ = {
+			isa = PBXGroup;
+			children = (
+				EF838C3A1FC8BFAC008BACF3 /* main.cpp */,
+			);
+			path = DynamicString;
+			sourceTree = "<group>";
+		};
 		EF85D6921FB1D9E900A7E52B /* ReferenceAssembly */ = {
 			isa = PBXGroup;
 			children = (
@@ -2042,7 +2096,6 @@
 			isa = PBXGroup;
 			children = (
 				EFE2D3971EB5E6BC00407470 /* HorseRace */,
-				EFE2D3A21EB60AF900407470 /* PersonSort */,
 				EFE2D3AD1EB6291C00407470 /* PointerToPointer */,
 				EFE2D3B81EB634CA00407470 /* NickGenerator */,
 				EFA4869E1EB7572B00D744B3 /* ParserMix */,
@@ -2414,6 +2467,9 @@
 				EF49BBE81FC0BC6900D4291C /* NewAndDelete2 */,
 				EF49BBF31FC0EE6C00D4291C /* NewAndDelete3 */,
 				EFE2D38C1EB5166E00407470 /* LinkedList */,
+				EF838C2E1FC89FF5008BACF3 /* DynamicAllocObject */,
+				EF838C391FC8BFAC008BACF3 /* DynamicString */,
+				EFE2D3A21EB60AF900407470 /* PersonSort */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2514,6 +2570,8 @@
 				EFA5F8C41FBB244800313A8D /* NewAndDelete1 */,
 				EF49BBE71FC0BC6900D4291C /* NewAndDelete2 */,
 				EF49BBF21FC0EE6C00D4291C /* NewAndDelete3 */,
+				EF838C2D1FC89FF5008BACF3 /* DynamicAllocObject */,
+				EF838C381FC8BFAC008BACF3 /* DynamicString */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3034,6 +3092,40 @@
 			name = PointerArrayReference1;
 			productName = PointerArrayReference1;
 			productReference = EF715E9D1FB387DD000A3AAB /* PointerArrayReference1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF838C2C1FC89FF5008BACF3 /* DynamicAllocObject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF838C311FC89FF5008BACF3 /* Build configuration list for PBXNativeTarget "DynamicAllocObject" */;
+			buildPhases = (
+				EF838C291FC89FF5008BACF3 /* Sources */,
+				EF838C2A1FC89FF5008BACF3 /* Frameworks */,
+				EF838C2B1FC89FF5008BACF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicAllocObject;
+			productName = DynamicAllocObject;
+			productReference = EF838C2D1FC89FF5008BACF3 /* DynamicAllocObject */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF838C371FC8BFAC008BACF3 /* DynamicString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF838C3C1FC8BFAC008BACF3 /* Build configuration list for PBXNativeTarget "DynamicString" */;
+			buildPhases = (
+				EF838C341FC8BFAC008BACF3 /* Sources */,
+				EF838C351FC8BFAC008BACF3 /* Frameworks */,
+				EF838C361FC8BFAC008BACF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicString;
+			productName = DynamicString;
+			productReference = EF838C381FC8BFAC008BACF3 /* DynamicString */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF85D6901FB1D9E900A7E52B /* ReferenceAssembly */ = {
@@ -4391,6 +4483,14 @@
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
+					EF838C2C1FC89FF5008BACF3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF838C371FC8BFAC008BACF3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					EF85D6901FB1D9E900A7E52B = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -4637,7 +4737,6 @@
 			projectRoot = "";
 			targets = (
 				EFE2D3951EB5E6BC00407470 /* HorseRace */,
-				EFE2D3A01EB60AF900407470 /* PersonSort */,
 				EFE2D3AB1EB6291C00407470 /* PointerToPointer */,
 				EFE2D3B61EB634CA00407470 /* NickGenerator */,
 				EFA4869C1EB7572B00D744B3 /* ParserMix */,
@@ -4729,6 +4828,9 @@
 				EF49BBE61FC0BC6900D4291C /* NewAndDelete2 */,
 				EF49BBF11FC0EE6C00D4291C /* NewAndDelete3 */,
 				EFE2D38A1EB5166E00407470 /* LinkedList */,
+				EF838C2C1FC89FF5008BACF3 /* DynamicAllocObject */,
+				EF838C371FC8BFAC008BACF3 /* DynamicString */,
+				EFE2D3A01EB60AF900407470 /* PersonSort */,
 			);
 		};
 /* End PBXProject section */
@@ -4867,6 +4969,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF715EA01FB387DD000A3AAB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF838C291FC89FF5008BACF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF838C301FC89FF5008BACF3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF838C341FC8BFAC008BACF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF838C3B1FC8BFAC008BACF3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5902,6 +6020,94 @@
 			name = Debug;
 		};
 		EF715EA21FB387DD000A3AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF838C321FC89FF5008BACF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF838C331FC89FF5008BACF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF838C3D1FC8BFAC008BACF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF838C3E1FC8BFAC008BACF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -7372,6 +7578,24 @@
 			buildConfigurations = (
 				EF715EA11FB387DD000A3AAB /* Debug */,
 				EF715EA21FB387DD000A3AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF838C311FC89FF5008BACF3 /* Build configuration list for PBXNativeTarget "DynamicAllocObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF838C321FC89FF5008BACF3 /* Debug */,
+				EF838C331FC89FF5008BACF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF838C3C1FC8BFAC008BACF3 /* Build configuration list for PBXNativeTarget "DynamicString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF838C3D1FC8BFAC008BACF3 /* Debug */,
+				EF838C3E1FC8BFAC008BACF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

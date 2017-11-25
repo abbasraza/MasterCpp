@@ -24,7 +24,6 @@
  All characters from str till null char copied to ar. so 6 character will be copied from str to
  ar which has space allocated for only 5 characters. Bad. So ar should have 6 character space allocated.
 
- 
  - strcpy is dangerous. src string longer than dest. All characters in src string till null copied to dest.
    will cause corruption.
  const char * str = "ABBASRAZA";

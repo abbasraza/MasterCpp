@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>50</integer>
 		</dict>
+		<key>ArithmeticExpressionParser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>94</integer>
+		</dict>
 		<key>Array1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

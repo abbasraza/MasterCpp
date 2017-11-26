@@ -26,6 +26,7 @@
 		EF715EA01FB387DD000A3AAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF715E9F1FB387DD000A3AAB /* main.cpp */; };
 		EF838C301FC89FF5008BACF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF838C2F1FC89FF5008BACF3 /* main.cpp */; };
 		EF838C3B1FC8BFAC008BACF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF838C3A1FC8BFAC008BACF3 /* main.cpp */; };
+		EF838C461FCB0C39008BACF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF838C451FCB0C39008BACF3 /* main.cpp */; };
 		EF85D6941FB1D9E900A7E52B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85D6931FB1D9E900A7E52B /* main.cpp */; };
 		EF85D69F1FB208F200A7E52B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85D69E1FB208F200A7E52B /* main.cpp */; };
 		EF99A31E1F96E0B600BB136D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99A31D1F96E0B600BB136D /* main.cpp */; };
@@ -268,6 +269,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF838C361FC8BFAC008BACF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF838C411FCB0C39008BACF3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1002,6 +1012,8 @@
 		EF838C2F1FC89FF5008BACF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF838C381FC8BFAC008BACF3 /* DynamicString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicString; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF838C3A1FC8BFAC008BACF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF838C431FCB0C39008BACF3 /* ArithmeticExpressionParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArithmeticExpressionParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF838C451FCB0C39008BACF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF85D6911FB1D9E900A7E52B /* ReferenceAssembly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReferenceAssembly; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF85D6931FB1D9E900A7E52B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF85D69C1FB208F200A7E52B /* Reference3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Reference3; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1286,6 +1298,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF838C351FC8BFAC008BACF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF838C401FCB0C39008BACF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1980,6 +1999,14 @@
 			path = DynamicString;
 			sourceTree = "<group>";
 		};
+		EF838C441FCB0C39008BACF3 /* ArithmeticExpressionParser */ = {
+			isa = PBXGroup;
+			children = (
+				EF838C451FCB0C39008BACF3 /* main.cpp */,
+			);
+			path = ArithmeticExpressionParser;
+			sourceTree = "<group>";
+		};
 		EF85D6921FB1D9E900A7E52B /* ReferenceAssembly */ = {
 			isa = PBXGroup;
 			children = (
@@ -2470,6 +2497,7 @@
 				EF838C2E1FC89FF5008BACF3 /* DynamicAllocObject */,
 				EF838C391FC8BFAC008BACF3 /* DynamicString */,
 				EFE2D3A21EB60AF900407470 /* PersonSort */,
+				EF838C441FCB0C39008BACF3 /* ArithmeticExpressionParser */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2572,6 +2600,7 @@
 				EF49BBF21FC0EE6C00D4291C /* NewAndDelete3 */,
 				EF838C2D1FC89FF5008BACF3 /* DynamicAllocObject */,
 				EF838C381FC8BFAC008BACF3 /* DynamicString */,
+				EF838C431FCB0C39008BACF3 /* ArithmeticExpressionParser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3126,6 +3155,23 @@
 			name = DynamicString;
 			productName = DynamicString;
 			productReference = EF838C381FC8BFAC008BACF3 /* DynamicString */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF838C421FCB0C39008BACF3 /* ArithmeticExpressionParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF838C471FCB0C39008BACF3 /* Build configuration list for PBXNativeTarget "ArithmeticExpressionParser" */;
+			buildPhases = (
+				EF838C3F1FCB0C39008BACF3 /* Sources */,
+				EF838C401FCB0C39008BACF3 /* Frameworks */,
+				EF838C411FCB0C39008BACF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArithmeticExpressionParser;
+			productName = ArithmeticExpressionParser;
+			productReference = EF838C431FCB0C39008BACF3 /* ArithmeticExpressionParser */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF85D6901FB1D9E900A7E52B /* ReferenceAssembly */ = {
@@ -4491,6 +4537,10 @@
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
+					EF838C421FCB0C39008BACF3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					EF85D6901FB1D9E900A7E52B = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -4831,6 +4881,7 @@
 				EF838C2C1FC89FF5008BACF3 /* DynamicAllocObject */,
 				EF838C371FC8BFAC008BACF3 /* DynamicString */,
 				EFE2D3A01EB60AF900407470 /* PersonSort */,
+				EF838C421FCB0C39008BACF3 /* ArithmeticExpressionParser */,
 			);
 		};
 /* End PBXProject section */
@@ -4985,6 +5036,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF838C3B1FC8BFAC008BACF3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF838C3F1FCB0C39008BACF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF838C461FCB0C39008BACF3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6108,6 +6167,50 @@
 			name = Debug;
 		};
 		EF838C3E1FC8BFAC008BACF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF838C481FCB0C39008BACF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF838C491FCB0C39008BACF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -7596,6 +7699,15 @@
 			buildConfigurations = (
 				EF838C3D1FC8BFAC008BACF3 /* Debug */,
 				EF838C3E1FC8BFAC008BACF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF838C471FCB0C39008BACF3 /* Build configuration list for PBXNativeTarget "ArithmeticExpressionParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF838C481FCB0C39008BACF3 /* Debug */,
+				EF838C491FCB0C39008BACF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

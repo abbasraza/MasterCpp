@@ -1,21 +1,24 @@
 //
 //  main.cpp
-//  Testing
+//  ArithmeticExpressionParser
 //
-//  Created by abbas raza on 16/10/2017.
+//  Created by abbas raza on 26/11/17.
 //  Copyright © 2017 Self. All rights reserved.
 //
-#include <iostream>
 
-/*
+/* Purpose of this program:
+ - Implement stack based arithmetic expression parser.
+   No recursion at all.
  */
+
+#include <iostream>
 
 class Stack
 {
 private:
 	int top;
-	static const int max = 20; // using static const so that we can use it in class functions.
-	int s[max]; // we can say s[MAX] and define MAX on top of this file. But that will not comply with abstraction concept.
+	static const int max = 20;
+	int s[max];
 public:
 	Stack(): top(-1)
 	{
@@ -129,13 +132,13 @@ void solve_expression_and_match_result(const char * expression, int solution)
 			}
 		}
 	}
-
+	
 	int operand1 = s.pop();
 	int last_operator = s.pop();
 	int operand2 = s.pop();
 	s.push(solve_simple_arithmetic_expression(operand1, last_operator, operand2));
-
-
+	
+	
 	std::cout << "My solution: " << s.pop() << " actual: " << solution << std::endl;
 }
 
@@ -143,44 +146,44 @@ int main()
 {
 	const char * expressions[20] =
 	{
-				"5 / 5 + 3 - 6 * 2",
-				"3 * 7 - 1 + 5 / 3",
-				"3 * 5 - 4",
-				"3 + 5 - 4",
-				"2 / 6 * 3 / 2",
-				"3 + 6 * 9 / 3 - 7",
-				"9 - 5 / 5 * 2 + 6",
-				"7 + 3 * 4 / 2 - 5 * 6",
-				"4 * 5 + 3 - 4 / 2",
-				"4 / 2 * 5 + 3 - 4",
-				"5 + 3 * 4 / 2 - 3",
-				"5 - 3 + 4 / 2",
-				"5 * 3 / 2 - 2",
-				"5 * 2 / 4 + 9 - 2",
-				"2 - 5 + 2 - 5 + 4 + 4 + 2",
-				"2 - 4"
+		"5 / 5 + 3 - 6 * 2",
+		"3 * 7 - 1 + 5 / 3",
+		"3 * 5 - 4",
+		"3 + 5 - 4",
+		"2 / 6 * 3 / 2",
+		"3 + 6 * 9 / 3 - 7",
+		"9 - 5 / 5 * 2 + 6",
+		"7 + 3 * 4 / 2 - 5 * 6",
+		"4 * 5 + 3 - 4 / 2",
+		"4 / 2 * 5 + 3 - 4",
+		"5 + 3 * 4 / 2 - 3",
+		"5 - 3 + 4 / 2",
+		"5 * 3 / 2 - 2",
+		"5 * 2 / 4 + 9 - 2",
+		"2 - 5 + 2 - 5 + 4 + 4 + 2",
+		"2 - 4"
 	};
-
+	
 	int solutions[20] =
 	{
-				5 / 5 + 3 - 6 * 2,
-				3 * 7 - 1 + 5 / 3,
-				3 * 5 - 4,
-				3 + 5 - 4,
-				2 / 6 * 3 / 2,
-				3 + 6 * 9 / 3 - 7,
-				9 - 5 / 5 * 2 + 6,
-				7 + 3 * 4 / 2 - 5 * 6,
-				4 * 5 + 3 - 4 / 2,
-				4 / 2 * 5 + 3 - 4,
-				5 + 3 * 4 / 2 - 3,
-				5 - 3 + 4 / 2,
-				5 * 3 / 2 - 2,
-				5 * 2 / 4 + 9 - 2,
-				2 - 5 + 2 - 5 + 4 + 4 + 2,
-				2 - 4
+		5 / 5 + 3 - 6 * 2,
+		3 * 7 - 1 + 5 / 3,
+		3 * 5 - 4,
+		3 + 5 - 4,
+		2 / 6 * 3 / 2,
+		3 + 6 * 9 / 3 - 7,
+		9 - 5 / 5 * 2 + 6,
+		7 + 3 * 4 / 2 - 5 * 6,
+		4 * 5 + 3 - 4 / 2,
+		4 / 2 * 5 + 3 - 4,
+		5 + 3 * 4 / 2 - 3,
+		5 - 3 + 4 / 2,
+		5 * 3 / 2 - 2,
+		5 * 2 / 4 + 9 - 2,
+		2 - 5 + 2 - 5 + 4 + 4 + 2,
+		2 - 4
 	};
-
+	
 	for (int i = 0; i < 20; ++i)
 	{
 		if (expressions[i])
@@ -188,6 +191,7 @@ int main()
 			solve_expression_and_match_result(expressions[i], solutions[i]);
 		}
 	}
-
+	
 	return 0;
 }
+

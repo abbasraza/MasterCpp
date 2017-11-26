@@ -2127,7 +2127,6 @@
 				EFE2D3B81EB634CA00407470 /* NickGenerator */,
 				EFA4869E1EB7572B00D744B3 /* ParserMix */,
 				EFA486A91EB775FE00D744B3 /* Parser */,
-				EFA486DD1EBC464A00D744B3 /* ParserStack */,
 				EFA486E81EBC9B8000D744B3 /* Stack */,
 			);
 			name = Old;
@@ -2497,6 +2496,7 @@
 				EF838C2E1FC89FF5008BACF3 /* DynamicAllocObject */,
 				EF838C391FC8BFAC008BACF3 /* DynamicString */,
 				EFE2D3A21EB60AF900407470 /* PersonSort */,
+				EFA486DD1EBC464A00D744B3 /* ParserStack */,
 				EF838C441FCB0C39008BACF3 /* ArithmeticExpressionParser */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
@@ -4791,7 +4791,6 @@
 				EFE2D3B61EB634CA00407470 /* NickGenerator */,
 				EFA4869C1EB7572B00D744B3 /* ParserMix */,
 				EFA486A71EB775FE00D744B3 /* Parser */,
-				EFA486DB1EBC464900D744B3 /* ParserStack */,
 				EFA486E61EBC9B8000D744B3 /* Stack */,
 				EF4643EE1EC1B68800A492C0 /* SignedUnsigned */,
 				EF4643F91F4D43E900A492C0 /* StaticCast */,
@@ -4881,6 +4880,7 @@
 				EF838C2C1FC89FF5008BACF3 /* DynamicAllocObject */,
 				EF838C371FC8BFAC008BACF3 /* DynamicString */,
 				EFE2D3A01EB60AF900407470 /* PersonSort */,
+				EFA486DB1EBC464900D744B3 /* ParserStack */,
 				EF838C421FCB0C39008BACF3 /* ArithmeticExpressionParser */,
 			);
 		};

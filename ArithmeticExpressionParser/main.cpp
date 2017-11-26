@@ -9,6 +9,7 @@
 /* Purpose of this program:
  - Implement stack based arithmetic expression parser.
    No recursion at all.
+ - Can be improved more.
  */
 
 #include <iostream>

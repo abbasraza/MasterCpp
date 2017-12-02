@@ -16,11 +16,16 @@
 		EF08C3DF1F7A790B002848CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF08C3DE1F7A790B002848CA /* main.cpp */; };
 		EF08C3EA1F7B51F9002848CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF08C3E91F7B51F9002848CA /* main.cpp */; };
 		EF08C3F51F7B5AFA002848CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF08C3F41F7B5AFA002848CA /* main.cpp */; };
+		EF1BF1EC1FD36E5D0017DF39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF1BF1EB1FD36E5D0017DF39 /* main.cpp */; };
 		EF3358411FCC931800CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358401FCC931800CB287F /* main.cpp */; };
 		EF33584C1FCF348A00CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF33584B1FCF348A00CB287F /* main.cpp */; };
 		EF3358571FCF3DB500CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358561FCF3DB500CB287F /* main.cpp */; };
 		EF3358621FCF3ECD00CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358611FCF3ECD00CB287F /* main.cpp */; };
 		EF33586D1FCF3F9700CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF33586C1FCF3F9700CB287F /* main.cpp */; };
+		EF3358781FD319C000CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358771FD319C000CB287F /* main.cpp */; };
+		EF3358831FD3397E00CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358821FD3397E00CB287F /* main.cpp */; };
+		EF33588E1FD35DA800CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF33588D1FD35DA800CB287F /* main.cpp */; };
+		EF3358991FD3626C00CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358981FD3626C00CB287F /* main.cpp */; };
 		EF4643F21EC1B68800A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643F11EC1B68800A492C0 /* main.cpp */; };
 		EF4643FD1F4D43E900A492C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4643FC1F4D43E900A492C0 /* main.cpp */; };
 		EF49BBEA1FC0BC6900D4291C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF49BBE91FC0BC6900D4291C /* main.cpp */; };
@@ -190,6 +195,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EF1BF1E71FD36E5D0017DF39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EF33583C1FCC931800CB287F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +241,42 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF3358681FCF3F9700CB287F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF3358731FD319C000CB287F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF33587E1FD3397E00CB287F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF3358891FD35DA800CB287F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF3358941FD3626C00CB287F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1039,6 +1089,8 @@
 		EF08C3E91F7B51F9002848CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF08C3F21F7B5AFA002848CA /* ReturnObj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReturnObj; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF08C3F41F7B5AFA002848CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF1BF1E91FD36E5D0017DF39 /* VirtualDtor2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualDtor2; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1BF1EB1FD36E5D0017DF39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF33583E1FCC931800CB287F /* VirtualFunction1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualFunction1; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3358401FCC931800CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF3358491FCF348A00CB287F /* VirtualFunction2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualFunction2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1049,6 +1101,14 @@
 		EF3358611FCF3ECD00CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF33586A1FCF3F9700CB287F /* VirtualFunction5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualFunction5; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF33586C1FCF3F9700CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF3358751FD319C000CB287F /* Polymorphism1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymorphism1; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3358771FD319C000CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF3358801FD3397E00CB287F /* PureVirtualFunction1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PureVirtualFunction1; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3358821FD3397E00CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF33588B1FD35DA800CB287F /* VirtualDtor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualDtor; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF33588D1FD35DA800CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF3358961FD3626C00CB287F /* InheritanceCtorDtor1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InheritanceCtorDtor1; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3358981FD3626C00CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF4643EF1EC1B68800A492C0 /* SignedUnsigned */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SignedUnsigned; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4643F11EC1B68800A492C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF4643FA1F4D43E900A492C0 /* StaticCast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticCast; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1290,6 +1350,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF1BF1E61FD36E5D0017DF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF33583B1FCC931800CB287F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1319,6 +1386,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF3358671FCF3F9700CB287F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3358721FD319C000CB287F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF33587D1FD3397E00CB287F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3358881FD35DA800CB287F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3358931FD3626C00CB287F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2009,6 +2104,14 @@
 			path = ReturnObj;
 			sourceTree = "<group>";
 		};
+		EF1BF1EA1FD36E5D0017DF39 /* VirtualDtor2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BF1EB1FD36E5D0017DF39 /* main.cpp */,
+			);
+			path = VirtualDtor2;
+			sourceTree = "<group>";
+		};
 		EF33583F1FCC931800CB287F /* VirtualFunction1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2047,6 +2150,38 @@
 				EF33586C1FCF3F9700CB287F /* main.cpp */,
 			);
 			path = VirtualFunction5;
+			sourceTree = "<group>";
+		};
+		EF3358761FD319C000CB287F /* Polymorphism1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF3358771FD319C000CB287F /* main.cpp */,
+			);
+			path = Polymorphism1;
+			sourceTree = "<group>";
+		};
+		EF3358811FD3397E00CB287F /* PureVirtualFunction1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF3358821FD3397E00CB287F /* main.cpp */,
+			);
+			path = PureVirtualFunction1;
+			sourceTree = "<group>";
+		};
+		EF33588C1FD35DA800CB287F /* VirtualDtor1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF33588D1FD35DA800CB287F /* main.cpp */,
+			);
+			path = VirtualDtor1;
+			sourceTree = "<group>";
+		};
+		EF3358971FD3626C00CB287F /* InheritanceCtorDtor1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF3358981FD3626C00CB287F /* main.cpp */,
+			);
+			path = InheritanceCtorDtor1;
 			sourceTree = "<group>";
 		};
 		EF4643F01EC1B68800A492C0 /* SignedUnsigned */ = {
@@ -2624,6 +2759,11 @@
 				EF3358551FCF3DB500CB287F /* VirtualFunction3 */,
 				EF3358601FCF3ECD00CB287F /* VirtualFunction4 */,
 				EF33586B1FCF3F9700CB287F /* VirtualFunction5 */,
+				EF3358761FD319C000CB287F /* Polymorphism1 */,
+				EF3358811FD3397E00CB287F /* PureVirtualFunction1 */,
+				EF3358971FD3626C00CB287F /* InheritanceCtorDtor1 */,
+				EF33588C1FD35DA800CB287F /* VirtualDtor1 */,
+				EF1BF1EA1FD36E5D0017DF39 /* VirtualDtor2 */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2732,6 +2872,11 @@
 				EF3358541FCF3DB500CB287F /* VirtualFunction3 */,
 				EF33585F1FCF3ECD00CB287F /* VirtualFunction4 */,
 				EF33586A1FCF3F9700CB287F /* VirtualFunction5 */,
+				EF3358751FD319C000CB287F /* Polymorphism1 */,
+				EF3358801FD3397E00CB287F /* PureVirtualFunction1 */,
+				EF33588B1FD35DA800CB287F /* VirtualDtor */,
+				EF3358961FD3626C00CB287F /* InheritanceCtorDtor1 */,
+				EF1BF1E91FD36E5D0017DF39 /* VirtualDtor2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3110,6 +3255,23 @@
 			productReference = EF08C3F21F7B5AFA002848CA /* ReturnObj */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF1BF1E81FD36E5D0017DF39 /* VirtualDtor2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1BF1ED1FD36E5D0017DF39 /* Build configuration list for PBXNativeTarget "VirtualDtor2" */;
+			buildPhases = (
+				EF1BF1E51FD36E5D0017DF39 /* Sources */,
+				EF1BF1E61FD36E5D0017DF39 /* Frameworks */,
+				EF1BF1E71FD36E5D0017DF39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualDtor2;
+			productName = VirtualDtor2;
+			productReference = EF1BF1E91FD36E5D0017DF39 /* VirtualDtor2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		EF33583D1FCC931800CB287F /* VirtualFunction1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF3358421FCC931800CB287F /* Build configuration list for PBXNativeTarget "VirtualFunction1" */;
@@ -3193,6 +3355,74 @@
 			name = VirtualFunction5;
 			productName = VirtualFunction5;
 			productReference = EF33586A1FCF3F9700CB287F /* VirtualFunction5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF3358741FD319C000CB287F /* Polymorphism1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3358791FD319C000CB287F /* Build configuration list for PBXNativeTarget "Polymorphism1" */;
+			buildPhases = (
+				EF3358711FD319C000CB287F /* Sources */,
+				EF3358721FD319C000CB287F /* Frameworks */,
+				EF3358731FD319C000CB287F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polymorphism1;
+			productName = Polymorphism1;
+			productReference = EF3358751FD319C000CB287F /* Polymorphism1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF33587F1FD3397E00CB287F /* PureVirtualFunction1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3358841FD3397E00CB287F /* Build configuration list for PBXNativeTarget "PureVirtualFunction1" */;
+			buildPhases = (
+				EF33587C1FD3397E00CB287F /* Sources */,
+				EF33587D1FD3397E00CB287F /* Frameworks */,
+				EF33587E1FD3397E00CB287F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureVirtualFunction1;
+			productName = PureVirtualFunction1;
+			productReference = EF3358801FD3397E00CB287F /* PureVirtualFunction1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF33588A1FD35DA800CB287F /* VirtualDtor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF33588F1FD35DA800CB287F /* Build configuration list for PBXNativeTarget "VirtualDtor" */;
+			buildPhases = (
+				EF3358871FD35DA800CB287F /* Sources */,
+				EF3358881FD35DA800CB287F /* Frameworks */,
+				EF3358891FD35DA800CB287F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualDtor;
+			productName = VirtualDtor;
+			productReference = EF33588B1FD35DA800CB287F /* VirtualDtor */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF3358951FD3626C00CB287F /* InheritanceCtorDtor1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF33589A1FD3626C00CB287F /* Build configuration list for PBXNativeTarget "InheritanceCtorDtor1" */;
+			buildPhases = (
+				EF3358921FD3626C00CB287F /* Sources */,
+				EF3358931FD3626C00CB287F /* Frameworks */,
+				EF3358941FD3626C00CB287F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InheritanceCtorDtor1;
+			productName = InheritanceCtorDtor1;
+			productReference = EF3358961FD3626C00CB287F /* InheritanceCtorDtor1 */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF4643EE1EC1B68800A492C0 /* SignedUnsigned */ = {
@@ -4710,6 +4940,10 @@
 					EF08C3F11F7B5AFA002848CA = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					EF1BF1E81FD36E5D0017DF39 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					EF33583D1FCC931800CB287F = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -4727,6 +4961,22 @@
 						ProvisioningStyle = Automatic;
 					};
 					EF3358691FCF3F9700CB287F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF3358741FD319C000CB287F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF33587F1FD3397E00CB287F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF33588A1FD35DA800CB287F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF3358951FD3626C00CB287F = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -5115,6 +5365,11 @@
 				EF3358531FCF3DB500CB287F /* VirtualFunction3 */,
 				EF33585E1FCF3ECD00CB287F /* VirtualFunction4 */,
 				EF3358691FCF3F9700CB287F /* VirtualFunction5 */,
+				EF3358741FD319C000CB287F /* Polymorphism1 */,
+				EF33587F1FD3397E00CB287F /* PureVirtualFunction1 */,
+				EF33588A1FD35DA800CB287F /* VirtualDtor */,
+				EF3358951FD3626C00CB287F /* InheritanceCtorDtor1 */,
+				EF1BF1E81FD36E5D0017DF39 /* VirtualDtor2 */,
 			);
 		};
 /* End PBXProject section */
@@ -5192,6 +5447,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF1BF1E51FD36E5D0017DF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BF1EC1FD36E5D0017DF39 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF33583A1FCC931800CB287F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5229,6 +5492,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF33586D1FCF3F9700CB287F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3358711FD319C000CB287F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3358781FD319C000CB287F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF33587C1FD3397E00CB287F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3358831FD3397E00CB287F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3358871FD35DA800CB287F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF33588E1FD35DA800CB287F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3358921FD3626C00CB287F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3358991FD3626C00CB287F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6147,6 +6442,50 @@
 			};
 			name = Release;
 		};
+		EF1BF1EE1FD36E5D0017DF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1BF1EF1FD36E5D0017DF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EF3358431FCC931800CB287F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6346,6 +6685,182 @@
 			name = Debug;
 		};
 		EF3358701FCF3F9700CB287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF33587A1FD319C000CB287F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF33587B1FD319C000CB287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3358851FD3397E00CB287F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF3358861FD3397E00CB287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3358901FD35DA800CB287F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF3358911FD35DA800CB287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF33589B1FD3626C00CB287F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF33589C1FD3626C00CB287F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -8106,6 +8621,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EF1BF1ED1FD36E5D0017DF39 /* Build configuration list for PBXNativeTarget "VirtualDtor2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BF1EE1FD36E5D0017DF39 /* Debug */,
+				EF1BF1EF1FD36E5D0017DF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF3358421FCC931800CB287F /* Build configuration list for PBXNativeTarget "VirtualFunction1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -8147,6 +8671,42 @@
 			buildConfigurations = (
 				EF33586F1FCF3F9700CB287F /* Debug */,
 				EF3358701FCF3F9700CB287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3358791FD319C000CB287F /* Build configuration list for PBXNativeTarget "Polymorphism1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF33587A1FD319C000CB287F /* Debug */,
+				EF33587B1FD319C000CB287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3358841FD3397E00CB287F /* Build configuration list for PBXNativeTarget "PureVirtualFunction1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3358851FD3397E00CB287F /* Debug */,
+				EF3358861FD3397E00CB287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF33588F1FD35DA800CB287F /* Build configuration list for PBXNativeTarget "VirtualDtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3358901FD35DA800CB287F /* Debug */,
+				EF3358911FD35DA800CB287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF33589A1FD3626C00CB287F /* Build configuration list for PBXNativeTarget "InheritanceCtorDtor1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF33589B1FD3626C00CB287F /* Debug */,
+				EF33589C1FD3626C00CB287F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

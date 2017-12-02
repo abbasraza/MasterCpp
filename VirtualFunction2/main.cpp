@@ -35,7 +35,7 @@ B) If Base doesn't have function definition:
             1.0) if found any virtual definition up, execute the last definition of function() going from Base---> Derived;
             1.1) if not found any virtual definition up, execute first definition (Parents of base) <---Base.
  
- - Never Use virtual function in ctor and dtor.
+ - Never call virtual function in ctor and dtor.
 ============================================================================================================
 
  -Examples:
@@ -507,7 +507,7 @@ int main()
 
 ======================================================
 
-Never Use virtual function in ctor and dtor.
+Never call virtual function in ctor and dtor.
 
 class A
 {

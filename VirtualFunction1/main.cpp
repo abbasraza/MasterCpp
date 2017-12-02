@@ -7,10 +7,10 @@
 //
 
 /* Purpose of this program:
- - To explore polymorphism.
- - Early/static binding.
- - Late/dynamic binding.
- - Virtual functions.
+ - Using Virtual functions.
+ - To explore polymorphism (which is achieved via virtual functions). (see Polymorphism1 instead)
+ - Early/static/compile-time function binding. (see Polymorphism1 instead)
+ - Late/dynamic/run-time binding. (see Polymorphism1 instead)
  - Function overloading. having more than 1 function with same name but different arguments.
  - Function overriding. Base has show() and Derived has show(). Both show() have same arguments.
  

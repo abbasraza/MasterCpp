@@ -22,7 +22,7 @@
 		<key>ArithmeticExpressionParser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>95</integer>
+			<integer>94</integer>
 		</dict>
 		<key>Array1.xcscheme</key>
 		<dict>
@@ -162,7 +162,7 @@
 		<key>DynamicAllocObject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>92</integer>
+			<integer>93</integer>
 		</dict>
 		<key>DynamicString.xcscheme</key>
 		<dict>
@@ -239,6 +239,11 @@
 			<key>orderHint</key>
 			<integer>76</integer>
 		</dict>
+		<key>InheritanceCtorDtor1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
 		<key>InheritanceLevel1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -277,17 +282,17 @@
 		<key>NewAndDelete1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>90</integer>
 		</dict>
 		<key>NewAndDelete2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>90</integer>
+			<integer>91</integer>
 		</dict>
 		<key>NewAndDelete3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>91</integer>
+			<integer>92</integer>
 		</dict>
 		<key>NickGenerator.xcscheme</key>
 		<dict>
@@ -342,7 +347,7 @@
 		<key>ParserStack.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>93</integer>
+			<integer>86</integer>
 		</dict>
 		<key>PersonSort.xcscheme</key>
 		<dict>
@@ -352,27 +357,37 @@
 		<key>PointerArrayReference1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>87</integer>
 		</dict>
 		<key>PointerArrayReference2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>87</integer>
+			<integer>88</integer>
 		</dict>
 		<key>PointerArrayReference3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>88</integer>
+			<integer>89</integer>
 		</dict>
 		<key>PointerToPointer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Polymorphism1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>96</integer>
+		</dict>
 		<key>Precision1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>53</integer>
+		</dict>
+		<key>PureVirtualFunction1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>102</integer>
 		</dict>
 		<key>Queue.xcscheme</key>
 		<dict>
@@ -484,30 +499,40 @@
 			<key>orderHint</key>
 			<integer>60</integer>
 		</dict>
+		<key>VirtualDtor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>103</integer>
+		</dict>
+		<key>VirtualDtor2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
 		<key>VirtualFunction1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>94</integer>
+			<integer>95</integer>
 		</dict>
 		<key>VirtualFunction2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>96</integer>
+			<integer>97</integer>
 		</dict>
 		<key>VirtualFunction3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>97</integer>
+			<integer>98</integer>
 		</dict>
 		<key>VirtualFunction4.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>98</integer>
+			<integer>99</integer>
 		</dict>
 		<key>VirtualFunction5.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>99</integer>
+			<integer>100</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

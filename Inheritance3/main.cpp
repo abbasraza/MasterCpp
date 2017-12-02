@@ -27,7 +27,7 @@ class A
 public:
 	void fA()
 	{
-		std::cout << "fA()" << std::endl;
+        std::cout << "fA()" << std::endl;
 	}
 };
 

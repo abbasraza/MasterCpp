@@ -176,8 +176,7 @@ int main()
 	}
 	std::cout << std::endl;
 	
-	
-	for (n = 0; n < 4; ++n)
+    for (n = 0; n < 4; ++n)
 	{
 		delete persPtr[n];
 	}

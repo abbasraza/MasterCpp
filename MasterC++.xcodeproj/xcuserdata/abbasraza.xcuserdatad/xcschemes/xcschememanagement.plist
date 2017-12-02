@@ -22,7 +22,7 @@
 		<key>ArithmeticExpressionParser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>94</integer>
+			<integer>95</integer>
 		</dict>
 		<key>Array1.xcscheme</key>
 		<dict>
@@ -162,12 +162,12 @@
 		<key>DynamicAllocObject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>90</integer>
+			<integer>92</integer>
 		</dict>
 		<key>DynamicString.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>91</integer>
+			<integer>84</integer>
 		</dict>
 		<key>Employee.xcscheme</key>
 		<dict>
@@ -252,7 +252,7 @@
 		<key>LinkedList.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>83</integer>
 		</dict>
 		<key>MasterC++.xcscheme</key>
 		<dict>
@@ -277,17 +277,17 @@
 		<key>NewAndDelete1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>89</integer>
 		</dict>
 		<key>NewAndDelete2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>87</integer>
+			<integer>90</integer>
 		</dict>
 		<key>NewAndDelete3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>88</integer>
+			<integer>91</integer>
 		</dict>
 		<key>NickGenerator.xcscheme</key>
 		<dict>
@@ -347,22 +347,22 @@
 		<key>PersonSort.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>92</integer>
+			<integer>85</integer>
 		</dict>
 		<key>PointerArrayReference1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>83</integer>
+			<integer>86</integer>
 		</dict>
 		<key>PointerArrayReference2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>87</integer>
 		</dict>
 		<key>PointerArrayReference3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>88</integer>
 		</dict>
 		<key>PointerToPointer.xcscheme</key>
 		<dict>
@@ -483,6 +483,31 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>60</integer>
+		</dict>
+		<key>VirtualFunction1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>94</integer>
+		</dict>
+		<key>VirtualFunction2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>96</integer>
+		</dict>
+		<key>VirtualFunction3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>97</integer>
+		</dict>
+		<key>VirtualFunction4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>98</integer>
+		</dict>
+		<key>VirtualFunction5.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

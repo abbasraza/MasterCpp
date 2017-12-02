@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
 	srand(static_cast<unsigned int>(time(NULL)));
 
 	//char * name = "abdeirsyz";
-	const char * name = static_cast<const char *>("abcdefghijklmnopqrstuvwxyz");
+	const char * name = static_cast<const char *>("abbasrazazaidi");
 	char * array[50000];
 	size_t range = strlen(name);
 	for (int i = 0; i < 50000; ++i)
@@ -40,11 +40,5 @@ int main(int argc, const char * argv[]) {
 
 		cout << static_cast<const char *>(*(array+i)) << endl;
 	}
-#if 0
-	for (int i = 0; i < 10; ++i)
-	{
-		int rand2 = get_random(50000);
-	}
-#endif
     return 0;
 }

@@ -17,6 +17,8 @@
 		EF08C3EA1F7B51F9002848CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF08C3E91F7B51F9002848CA /* main.cpp */; };
 		EF08C3F51F7B5AFA002848CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF08C3F41F7B5AFA002848CA /* main.cpp */; };
 		EF1BF1EC1FD36E5D0017DF39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF1BF1EB1FD36E5D0017DF39 /* main.cpp */; };
+		EF1BF1F71FD433300017DF39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF1BF1F61FD433300017DF39 /* main.cpp */; };
+		EF1BF2021FD48F7A0017DF39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF1BF2011FD48F7A0017DF39 /* main.cpp */; };
 		EF3358411FCC931800CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358401FCC931800CB287F /* main.cpp */; };
 		EF33584C1FCF348A00CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF33584B1FCF348A00CB287F /* main.cpp */; };
 		EF3358571FCF3DB500CB287F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3358561FCF3DB500CB287F /* main.cpp */; };
@@ -196,6 +198,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF1BF1E71FD36E5D0017DF39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF1BF1F21FD433300017DF39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF1BF1FD1FD48F7A0017DF39 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1091,6 +1111,10 @@
 		EF08C3F41F7B5AFA002848CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF1BF1E91FD36E5D0017DF39 /* VirtualDtor2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualDtor2; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1BF1EB1FD36E5D0017DF39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF1BF1F41FD433300017DF39 /* VirtualBaseClass1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualBaseClass1; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1BF1F61FD433300017DF39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF1BF1FF1FD48F7A0017DF39 /* VirtualBaseClass2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualBaseClass2; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1BF2011FD48F7A0017DF39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF33583E1FCC931800CB287F /* VirtualFunction1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualFunction1; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3358401FCC931800CB287F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF3358491FCF348A00CB287F /* VirtualFunction2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualFunction2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1351,6 +1375,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF1BF1E61FD36E5D0017DF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BF1F11FD433300017DF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BF1FC1FD48F7A0017DF39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2112,6 +2150,22 @@
 			path = VirtualDtor2;
 			sourceTree = "<group>";
 		};
+		EF1BF1F51FD433300017DF39 /* VirtualBaseClass1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BF1F61FD433300017DF39 /* main.cpp */,
+			);
+			path = VirtualBaseClass1;
+			sourceTree = "<group>";
+		};
+		EF1BF2001FD48F7A0017DF39 /* VirtualBaseClass2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BF2011FD48F7A0017DF39 /* main.cpp */,
+			);
+			path = VirtualBaseClass2;
+			sourceTree = "<group>";
+		};
 		EF33583F1FCC931800CB287F /* VirtualFunction1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2764,6 +2818,8 @@
 				EF3358971FD3626C00CB287F /* InheritanceCtorDtor1 */,
 				EF33588C1FD35DA800CB287F /* VirtualDtor1 */,
 				EF1BF1EA1FD36E5D0017DF39 /* VirtualDtor2 */,
+				EF1BF1F51FD433300017DF39 /* VirtualBaseClass1 */,
+				EF1BF2001FD48F7A0017DF39 /* VirtualBaseClass2 */,
 				EFE2D37E1EB515EB00407470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2877,6 +2933,8 @@
 				EF33588B1FD35DA800CB287F /* VirtualDtor */,
 				EF3358961FD3626C00CB287F /* InheritanceCtorDtor1 */,
 				EF1BF1E91FD36E5D0017DF39 /* VirtualDtor2 */,
+				EF1BF1F41FD433300017DF39 /* VirtualBaseClass1 */,
+				EF1BF1FF1FD48F7A0017DF39 /* VirtualBaseClass2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3270,6 +3328,40 @@
 			name = VirtualDtor2;
 			productName = VirtualDtor2;
 			productReference = EF1BF1E91FD36E5D0017DF39 /* VirtualDtor2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF1BF1F31FD433300017DF39 /* VirtualBaseClass1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1BF1F81FD433300017DF39 /* Build configuration list for PBXNativeTarget "VirtualBaseClass1" */;
+			buildPhases = (
+				EF1BF1F01FD433300017DF39 /* Sources */,
+				EF1BF1F11FD433300017DF39 /* Frameworks */,
+				EF1BF1F21FD433300017DF39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualBaseClass1;
+			productName = VirtualBaseClass1;
+			productReference = EF1BF1F41FD433300017DF39 /* VirtualBaseClass1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF1BF1FE1FD48F7A0017DF39 /* VirtualBaseClass2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1BF2031FD48F7A0017DF39 /* Build configuration list for PBXNativeTarget "VirtualBaseClass2" */;
+			buildPhases = (
+				EF1BF1FB1FD48F7A0017DF39 /* Sources */,
+				EF1BF1FC1FD48F7A0017DF39 /* Frameworks */,
+				EF1BF1FD1FD48F7A0017DF39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualBaseClass2;
+			productName = VirtualBaseClass2;
+			productReference = EF1BF1FF1FD48F7A0017DF39 /* VirtualBaseClass2 */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF33583D1FCC931800CB287F /* VirtualFunction1 */ = {
@@ -4944,6 +5036,14 @@
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
+					EF1BF1F31FD433300017DF39 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF1BF1FE1FD48F7A0017DF39 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					EF33583D1FCC931800CB287F = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -5370,6 +5470,8 @@
 				EF33588A1FD35DA800CB287F /* VirtualDtor */,
 				EF3358951FD3626C00CB287F /* InheritanceCtorDtor1 */,
 				EF1BF1E81FD36E5D0017DF39 /* VirtualDtor2 */,
+				EF1BF1F31FD433300017DF39 /* VirtualBaseClass1 */,
+				EF1BF1FE1FD48F7A0017DF39 /* VirtualBaseClass2 */,
 			);
 		};
 /* End PBXProject section */
@@ -5452,6 +5554,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1BF1EC1FD36E5D0017DF39 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BF1F01FD433300017DF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BF1F71FD433300017DF39 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BF1FB1FD48F7A0017DF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BF2021FD48F7A0017DF39 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6465,6 +6583,94 @@
 			name = Debug;
 		};
 		EF1BF1EF1FD36E5D0017DF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF1BF1F91FD433300017DF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1BF1FA1FD433300017DF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF1BF2041FD48F7A0017DF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1BF2051FD48F7A0017DF39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -8626,6 +8832,24 @@
 			buildConfigurations = (
 				EF1BF1EE1FD36E5D0017DF39 /* Debug */,
 				EF1BF1EF1FD36E5D0017DF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1BF1F81FD433300017DF39 /* Build configuration list for PBXNativeTarget "VirtualBaseClass1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BF1F91FD433300017DF39 /* Debug */,
+				EF1BF1FA1FD433300017DF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1BF2031FD48F7A0017DF39 /* Build configuration list for PBXNativeTarget "VirtualBaseClass2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BF2041FD48F7A0017DF39 /* Debug */,
+				EF1BF2051FD48F7A0017DF39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

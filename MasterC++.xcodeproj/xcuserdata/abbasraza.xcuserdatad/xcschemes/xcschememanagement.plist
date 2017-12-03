@@ -499,6 +499,16 @@
 			<key>orderHint</key>
 			<integer>60</integer>
 		</dict>
+		<key>VirtualBaseClass1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>105</integer>
+		</dict>
+		<key>VirtualBaseClass2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>106</integer>
+		</dict>
 		<key>VirtualDtor.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

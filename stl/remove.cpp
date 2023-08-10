@@ -68,7 +68,7 @@ int main()
         It does not point to any valid element, and it should not be dereferenced.
         It's commonly used as the stopping condition in loops to iterate over a range of elements in the vector.
     */
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); )
     {
         //printing address of element in vector
         cout << &(*it) << endl;
@@ -79,7 +79,9 @@ int main()
             and the elements after the erased elements are shifted to fill the gap left by the removed elements.
             As a result, both begin() and end() iterators are affected by the erasure.
         */
-            myvector.erase(it);
+            it = myvector.erase(it);
+            else
+                ++it;
     }
 
 

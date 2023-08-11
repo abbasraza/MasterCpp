@@ -63,6 +63,7 @@ Distance Distance::add_distance(Distance& d)
 	//d.feet = 4; // this will throw error if d is const.
 	// if d modified, it will reflect in original passed as argument.
 	Distance sum;
+	std::cout << "local variable sum address: " << &sum << std::endl;
 
 	sum.feet = feet + d.feet; // since d is Distance object, that's why functions of Distance class can access d's data.
 

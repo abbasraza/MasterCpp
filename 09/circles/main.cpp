@@ -24,6 +24,10 @@ private:
 	//color fillcolor;
 	//fstyle fillstyle;
 public:
+	circle(xC0=0, yCo=0, radious=0)
+	{
+		
+	}
 	void set(int x, int y, int r/*, color fc, fstyle fs*/)
 	{
 		xCo = x;

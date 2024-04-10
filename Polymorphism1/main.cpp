@@ -106,8 +106,10 @@
  compile time / link time / load time / runtime?
  I guess if we want to use that library statically, then binding will be performed at link time.
  If we want to use that library dynamically, then binding will be done at load time.
- when will binding be performed at run-time with library???
  
+ when will binding be performed at run-time with library???
+ loading libraries conditionally based on user input or system configuration.
+
  In below program, lets say if we ask user at run-time to input list of animals of different kind
  then at this Polymorphic Call
      animals[i]->speak();

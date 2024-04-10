@@ -6,13 +6,14 @@
  * 
  * Definitions of class functions are outside class declaration.
  * 
- * The code defines a function template `findMax` that finds the maximum element in a generic array.
- * It also defines a class template `Container` that represents a generic container.
- * The class template has a specialization for integers, which only allows non-negative integers to be added.
+ * We've defined a class template that includes a static member. We then specialize
+ * this static member for two specific types. 
  * 
- * The main function demonstrates the usage of the function template and the class template.
- * It creates an array of integers and an array of doubles, and finds the maximum value in each array using the `findMax` function template.
- * It also creates instances of the `Container` class template, adds elements to them, and displays the contents of the containers.
+ * When objects of this class are instantiated, all objects of the same type share the same static member.
+ * In this case, all integer container instances share the same name member. 
+ * 
+ * If the name member was not static, we wouldn't be able to specialize it,
+ * because each object would have its own distinct name member.
  */
 
 
@@ -56,9 +57,17 @@ void  Container<T>::printName()
     std::cout << name << std::endl;
 }
 
+//template specialization for a class member
+/* The name member in the Container class template is declared as static,
+which means it is shared among all instances of the class. When specializing a
+member of a class template, it is necessary to specialize the static member as well.
+This allows each specialization to have its own unique value for the name member.
+If the name member is not declared as static, it cannot be specialized because it would
+require modifying the member for each instance of the class, which is not allowed.*/
 template<>
 std::string Container<int>::name = "integer container";
 
+//template specialization for a class member
 template<>
 std::string Container<double>::name = "double container";
 
@@ -79,6 +88,10 @@ int main() {
     doubleContainer.add(-1.3); // Will be added
     doubleContainer.display();
     doubleContainer.printName();
+
+    Container<int> intContainer2;
+    intContainer2.printName();
+
 
     
     return 0;

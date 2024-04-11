@@ -60,7 +60,7 @@ public:
 		fB();
 		B::fB();
 		
-		// fG(); // error
+		//fG(); // error fG is ambiguous
 		A::fG();
 		B::fG();
 
@@ -78,7 +78,7 @@ int main()
 	c1.fB();
 	c1.B::fB();
 	
-	// c1.fG(); // error
+	//c1.fG(); // error C's fG is ambiguous
 	c1.A::fG();
 	c1.B::fG();
 

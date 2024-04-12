@@ -16,24 +16,24 @@ Base * ptr = &(derived);
 ptr->function();
 
 A) Base has function definition:
-    i) If Base is not derived:
+    i) If Base is not derived (Base has no parent):
         1) if base has that as non-virtual function, call that function.
         2) if base has that as virtual function, execute the last definition of function() going from Base---> Derived;
 
-    ii) If Base is a derived class:
-        1) if Base has that as non-virtual function, go (Parents of base) <---Base
+    ii) If Base is a derived class (Base has parent):
+        1) if Base has that as non-virtual function, go Base --to--> (Parents of base)
             1.0) if found any virtual definition up, execute the last definition of function() going from Base---> Derived;
             1.1) if not found any virtual definition up, execute Base's function.
         2) if base has that as virtual function, execute the last definition of function() going from Base---> Derived;
 
 B) If Base doesn't have function definition:
-    i) If Base is not derived:
+    i) If Base is not derived (Base has no parent):
         1) error
 
-    ii) If Base is a derived class:
-        1) go (Parents of base) <---Base
+    ii) If Base is a derived class (Base has parent):
+        1) go from Base --to--> (Parents of base)
             1.0) if found any virtual definition up, execute the last definition of function() going from Base---> Derived;
-            1.1) if not found any virtual definition up, execute first definition (Parents of base) <---Base.
+            1.1) if not found any virtual definition up, execute first definition Base --to--> (Parents of base).
  
  - Never call virtual function in ctor and dtor.
 ============================================================================================================
@@ -548,25 +548,37 @@ int main()
 class A
 {
 public:
-    virtual const char * getName() { return "A"; } // only the most base function is virtual
+    virtual const char * getName()
+    {
+        return "A";
+    } // only the most base function is virtual
 };
 
 class B: public A
 {
 public:
-    const char * getName() { return "B"; }  // note: not virtual
+    const char * getName()
+    {
+        return "B";
+    }  // note: not virtual
 };
 
 class C: public B
 {
 public:
-    const char * getName() { return "C"; } // note: not virtual
+    const char * getName()
+    {
+        return "C";
+    } // note: not virtual
 };
 
 class D: public C
 {
 public:
-    const char * getName() { return "D"; } // note: not virtual
+    const char * getName()
+    {
+        return "D";
+    } // note: not virtual
 };
 
 int main()

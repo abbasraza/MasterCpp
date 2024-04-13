@@ -6,8 +6,9 @@
 //  Copyright © 2017 Self. All rights reserved.
 //
 
-/* Purpose of this program:
+/* Purpose of this program (Abstraction using Protected constructor):
  - Abstract class. Employee here is abstract because we never will create an object for this.
+ - We have made the constructor of Employee protected. So, we can't create an object of Employee.
  
                -----------
         ----> |  Employee | <-----
@@ -75,6 +76,7 @@ public:
 
 int main(int argc, const char * argv[])
 {
+	Employee e; // Error: Employee is an abstract class.
 	Scientist e1("Abbas", 17);
 	Labor e2("Shahg", 100);
 
